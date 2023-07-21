@@ -1,0 +1,5986 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "GameScene",
+  "name": "GameScene",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": false,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.5468750000000081,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "Hazards",
+      "objects": [
+        {
+          "name": "Poison"
+        },
+        {
+          "name": "Monster"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "folded": true,
+      "name": "Score",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "PitchScaling",
+      "type": "number",
+      "value": 1
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 736,
+      "layer": "Background",
+      "name": "Stars",
+      "persistentUuid": "824bc678-324f-48ff-aca1-99016ce82937",
+      "width": 1280,
+      "x": 0,
+      "y": -832,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "MobileControls",
+      "locked": true,
+      "name": "FlatLightJoystick",
+      "persistentUuid": "c51d2f52-5891-4f51-b03e-a2d73bb83619",
+      "sealed": true,
+      "width": 0,
+      "x": 144,
+      "y": 592,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "MobileControls",
+      "locked": true,
+      "name": "AButton",
+      "persistentUuid": "1f2f4b77-1281-4d99-a0af-133d458d38f2",
+      "sealed": true,
+      "width": 0,
+      "x": 1088,
+      "y": 544,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "UI",
+      "name": "Score",
+      "persistentUuid": "4073922b-fd39-487b-b30b-e9b39cb0058a",
+      "width": 224,
+      "x": 1024,
+      "y": 32,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 125,
+      "layer": "",
+      "name": "Knight",
+      "persistentUuid": "a0eda376-e73a-467c-b8ea-b1a9c975f9ff",
+      "width": 103,
+      "x": 256,
+      "y": 380,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1728,
+      "layer": "",
+      "name": "CameraBoundarysMarker_Left",
+      "persistentUuid": "2a25b653-d059-42e4-ac45-56116a27a2a3",
+      "width": 128,
+      "x": -128,
+      "y": -640,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "FallMarker",
+      "persistentUuid": "69e9a542-3f78-460f-8075-75135cdb145c",
+      "width": 1280,
+      "x": 0,
+      "y": 1216,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 896,
+      "layer": "",
+      "name": "CameraBoundarysMarker_Right",
+      "persistentUuid": "423c6a79-1880-4038-aaa3-e3cab07bc830",
+      "width": 128,
+      "x": 6848,
+      "y": 192,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "926b188d-d2bd-4241-8b21-8ff5ad862271",
+      "width": 1600,
+      "x": 0,
+      "y": 576,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Star",
+      "persistentUuid": "62516b1d-9075-4728-8c70-cd1f36e8945f",
+      "width": 64,
+      "x": 6464,
+      "y": 768,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Arrow",
+      "persistentUuid": "ee48d249-2f7d-4634-ade6-69acaeb2aaeb",
+      "width": 0,
+      "x": 418,
+      "y": 322,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "82686eae-90a3-4f13-9bf5-98424f1c64d6",
+      "width": 1600,
+      "x": 0,
+      "y": 960,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "12065deb-f989-4e5b-9f27-d829732c83cf",
+      "width": 2688,
+      "x": 4160,
+      "y": 832,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "33cbce82-dedd-408b-a7b1-950625eb36e0",
+      "width": 128,
+      "x": 3520,
+      "y": 448,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "09b8f180-e767-4bd7-ba2c-d4ab8e22e6c3",
+      "width": 128,
+      "x": 2880,
+      "y": 448,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "5fa7dcf9-bbf5-4ed4-bca0-f06611306fa9",
+      "width": 128,
+      "x": 2240,
+      "y": 448,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "3aeeaa09-4f1f-4fa4-87fd-550632ecfd9d",
+      "width": 320,
+      "x": 3840,
+      "y": 704,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "8b1861f6-2fad-4aa3-89ef-3e64c40c3b76",
+      "width": 320,
+      "x": 3520,
+      "y": 832,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "cf921f5a-b171-4de9-82d3-33b7de54c398",
+      "width": 320,
+      "x": 3840,
+      "y": 960,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "103f76d1-8109-4ffd-bded-029dc2e79ea4",
+      "width": 320,
+      "x": 1920,
+      "y": 704,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "068bd91a-fe9c-4cac-afb6-7cc6995680f6",
+      "width": 320,
+      "x": 1600,
+      "y": 832,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "fcf2ffe5-51d1-4ff6-94f7-b0e8549fd710",
+      "width": 320,
+      "x": 1920,
+      "y": 960,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "4a39d89c-ba49-4a04-8866-d958f9910380",
+      "width": 320,
+      "x": 2560,
+      "y": 704,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "3ee53ede-e586-4f48-b736-71f40436d5de",
+      "width": 320,
+      "x": 2240,
+      "y": 832,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "f428f53a-2439-4e78-bb9c-b118d5cafb82",
+      "width": 320,
+      "x": 2560,
+      "y": 960,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "755c0dd2-a820-41a3-a499-54a464655610",
+      "width": 320,
+      "x": 3200,
+      "y": 704,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "c82221bf-4b3a-4875-8883-0c0e1a2195ff",
+      "width": 320,
+      "x": 2880,
+      "y": 832,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "d2aa9236-479e-40cf-87b8-4154d6954f12",
+      "width": 320,
+      "x": 3200,
+      "y": 960,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "71c14c41-edc4-44af-aa5d-f496c799137d",
+      "width": 64,
+      "x": 6336,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "4ef53a2f-c936-4461-97b0-2cd69a960eff",
+      "width": 64,
+      "x": 384,
+      "y": 832,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "d2d4a16f-70b8-4fba-9355-4cfc4ae76674",
+      "width": 64,
+      "x": 512,
+      "y": 832,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "518a11d9-d41b-44ac-8ce3-d47f9788e6da",
+      "width": 64,
+      "x": 640,
+      "y": 832,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "46aba4dd-22aa-4d35-bab8-e776e8da8dc0",
+      "width": 64,
+      "x": 896,
+      "y": 832,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "fcf92d87-0e43-4819-870b-7f58ffd28a64",
+      "width": 64,
+      "x": 6080,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "4ba9efc0-6095-4f70-b107-39e1e99ed9c0",
+      "width": 64,
+      "x": 6208,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "764327dc-3a6a-42b1-aecf-df306ff3fab4",
+      "width": 64,
+      "x": 1664,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "3c19cebe-e1bc-455d-8e5e-c99fd6984653",
+      "width": 64,
+      "x": 1792,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "4282e2d7-babc-4483-8d54-dd3c92034dd0",
+      "width": 64,
+      "x": 5824,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "f3b8c2cc-5feb-453f-85d4-dab5ae644294",
+      "width": 64,
+      "x": 5952,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "347f7b10-2f01-46ae-850b-e30cd3aa30bb",
+      "width": 64,
+      "x": 256,
+      "y": 896,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "e0ae5154-122d-49c1-b586-a87bce6fb176",
+      "width": 64,
+      "x": 1024,
+      "y": 896,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "886d981e-ac4c-4c8a-9df2-2a35da6a1bfc",
+      "width": 64,
+      "x": 768,
+      "y": 832,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "edb2d9a5-4be6-4fd3-9a20-96af1770dcd9",
+      "width": 46,
+      "x": 1280,
+      "y": 896,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "f3ea5066-b804-4165-b713-85d406c94dad",
+      "width": 64,
+      "x": 1984,
+      "y": 896,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "56b3320a-7ba2-40a8-8785-55e8133c07c3",
+      "width": 64,
+      "x": 768,
+      "y": 512,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "9d041a62-de41-47b5-9f6c-5a3f63015788",
+      "width": 64,
+      "x": 1024,
+      "y": 512,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "9e34aa67-d4ee-4003-997f-40c5aa6190ad",
+      "width": 46,
+      "x": 3584,
+      "y": 384,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "a69ff5b1-dd50-4df5-a25d-51477fb4087f",
+      "width": 46,
+      "x": 1472,
+      "y": 512,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "e10f8dee-3b76-40bc-9cae-c865a35a3a3a",
+      "width": 46,
+      "x": 2304,
+      "y": 384,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "598d4589-2e44-4fed-a010-b4612747b70d",
+      "width": 46,
+      "x": 2944,
+      "y": 384,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "8a854be0-be32-4c77-8c3a-42b8f934f1d9",
+      "width": 64,
+      "x": 1280,
+      "y": 512,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "386579f0-fc8e-4bb4-b80f-9ce366347bfa",
+      "width": 64,
+      "x": 2112,
+      "y": 640,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "5dec692e-9ab6-4ab5-89c5-a4809a4df8c0",
+      "width": 64,
+      "x": 3264,
+      "y": 896,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "409c0adc-ac19-48c3-896b-efc79e67992f",
+      "width": 64,
+      "x": 2624,
+      "y": 896,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "ab0d1741-fd29-43a3-9107-07d217c8e570",
+      "width": 64,
+      "x": 2752,
+      "y": 640,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "7d25b272-dd05-48f1-a542-cb80df60c99c",
+      "width": 64,
+      "x": 5312,
+      "y": 768,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "8d23b6cc-34d8-44ca-966d-588f83877246",
+      "width": 64,
+      "x": 4672,
+      "y": 576,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "5fdea171-d878-4977-b624-0158b47eda14",
+      "width": 64,
+      "x": 5696,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "1e1db84d-80b9-4392-9464-b28c5ce7d315",
+      "width": 64,
+      "x": 3648,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "de70fa32-91ff-47f6-9971-2e78df52167a",
+      "width": 64,
+      "x": 3744,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "76b57f78-bc3a-4f9b-979d-ee703b7d642a",
+      "width": 64,
+      "x": 2944,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "67a1b003-a7a4-4d97-8532-99af409ba6c4",
+      "width": 64,
+      "x": 3072,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "c07ae600-e5e8-43aa-8a6a-058e286ef04f",
+      "width": 64,
+      "x": 2272,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "865d4122-0186-43bc-ad02-bb957afcff1f",
+      "width": 64,
+      "x": 2368,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "bd91737b-cc27-49ec-b7b3-450627913f75",
+      "width": 64,
+      "x": 3392,
+      "y": 640,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "3aed7c94-02e0-462d-80a0-70fd9720643d",
+      "width": 448,
+      "x": 4608,
+      "y": 704,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "0576f169-b350-4c35-bf47-970d5a6a53c8",
+      "width": 64,
+      "x": 4544,
+      "y": 768,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "b4e138ca-4c35-4527-b39c-f6cd03fac96f",
+      "width": 64,
+      "x": 4800,
+      "y": 640,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "530083df-2977-4369-9ad0-f1fd1d12c629",
+      "width": 64,
+      "x": 4928,
+      "y": 576,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "e3249804-6b48-4484-b4c4-f3fb9adff42a",
+      "width": 64,
+      "x": 5568,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "82b80c5c-ca4b-4e1a-8b16-f2e1be635433",
+      "width": 64,
+      "x": 5056,
+      "y": 768,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "d62e2093-f303-42a4-9b24-09eca475c47a",
+      "width": 64,
+      "x": 2464,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "765e18a1-3212-4296-ab4c-6587874f4752",
+      "width": 64,
+      "x": 3552,
+      "y": 704,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "RedFlatBar",
+      "persistentUuid": "55cff03e-6b6b-4d42-819f-e296378471e5",
+      "width": 0,
+      "x": 32,
+      "y": 32,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "BlueFlatBar",
+      "persistentUuid": "3217e411-31bd-4dfb-a618-640ce6838b06",
+      "width": 0,
+      "x": 32,
+      "y": 64,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Knight",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Energy",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 18,
+          "CurrentHealth": 0,
+          "MaxHealth": 18,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+          "EnableAnimationChanges": true,
+          "EnableHorizontalFlipping": true,
+          "IdleAnimationName": "Idle",
+          "RunAnimationName": "Run",
+          "JumpAnimationName": "Jump",
+          "FallAnimationName": "Fall",
+          "ClimbAnimationName": "Climb",
+          "PlatformerBehavior": "PlatformerObject"
+        },
+        {
+          "name": "PlatformerMultitouchMapper",
+          "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper",
+          "Property": "PlatformerObject",
+          "ControllerIdentifier": 1,
+          "JoystickIdentifier": "Primary",
+          "JumpButton": "A"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "canGrabPlatforms": false,
+          "jumpSpeed": 650,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 325,
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": -32,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 0,
+          "LogRightwardSpeed": 0,
+          "LogDownwardSpeed": 0,
+          "LogUpwardSpeed": 0,
+          "DelayedCenterX": 0,
+          "DelayedCenterY": 0,
+          "ForecastHistoryMeanX": 0,
+          "ForecastHistoryMeanY": 0,
+          "ForecastHistoryVarianceX": 0,
+          "ForecastHistoryCovariance": 0,
+          "ForecastHistoryLinearA": 0,
+          "ForecastHistoryLinearB": 0,
+          "ForecastedX": 0,
+          "ForecastedY": 0,
+          "ProjectedNewestX": 0,
+          "ProjectedNewestY": 0,
+          "ProjectedOldestX": 0,
+          "ProjectedOldestY": 0,
+          "ForecastHistoryVarianceY": 0,
+          "Index": 0,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 0,
+          "WaitingSpeedXMax": 0,
+          "WaitingSpeedYMax": 0,
+          "WaitingEnd": 0,
+          "CameraDelayCatchUpDuration": 0,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000,
+          "OldY": 9000,
+          "IsCalledManually": false
+        },
+        {
+          "name": "SmoothPlatformerCamera",
+          "type": "SmoothCamera::SmoothPlatformerCamera",
+          "PlatformerCharacter": "PlatformerObject",
+          "SmoothCamera": "SmoothCamera",
+          "JumpOriginY": 1.758268736427497e-308,
+          "AirFollowFreeAreaTop": 0,
+          "AirFollowFreeAreaBottom": 0,
+          "FloorFollowFreeAreaTop": 0,
+          "FloorFollowFreeAreaBottom": 0,
+          "AirUpwardSpeed": 0.95,
+          "AirDownwardSpeed": 0.95,
+          "FloorUpwardSpeed": 0.9,
+          "FloorDownwardSpeed": 0.9,
+          "AirUpwardSpeedMax": 9000,
+          "AirDownwardSpeedMax": 9000,
+          "FloorUpwardSpeedMax": 9000,
+          "FloorDownwardSpeedMax": 9000
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Idle_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Idle_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Idle_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Idle_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Idle_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Idle_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Idle_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Idle_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Walk_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Walk_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Walk_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Walk_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Walk_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Walk_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Walk_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Walk_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Walk_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Walk_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Run",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Run_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Run_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Run_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Run_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Run_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Run_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Run_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Run_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Run_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Run_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Attack_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Attack_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Attack_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Attack_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Attack_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Attack_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Attack_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Attack_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Attack_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Attack_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dead",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Dead_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Dead_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Dead_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Dead_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Dead_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Dead_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Dead_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Dead_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Dead_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Dead_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump Attack",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump Attack_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump Attack_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump Attack_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump Attack_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump Attack_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump Attack_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump Attack_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump Attack_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump Attack_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Knight_Jump Attack_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 10
+                      },
+                      {
+                        "x": 124,
+                        "y": 165
+                      },
+                      {
+                        "x": 14,
+                        "y": 165
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Star",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Filled",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Star_Filled.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 60
+                      },
+                      {
+                        "x": 0,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Outline",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Star_Outline.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 0
+                      },
+                      {
+                        "x": 60,
+                        "y": 60
+                      },
+                      {
+                        "x": 0,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "Stars",
+      "tags": "",
+      "texture": "tiled_Stars.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "RedPlatform",
+      "tags": "",
+      "texture": "tiled_Red Platform.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "Jumpthru",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "FallMarker",
+      "tags": "",
+      "texture": "assets\\RedCheckered.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "CameraBoundarysMarker_Left",
+      "tags": "",
+      "texture": "assets\\BlueCheckered.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 128,
+      "name": "CameraBoundarysMarker_Right",
+      "tags": "",
+      "texture": "assets\\BlueCheckered.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": false,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Poison",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "PoisonDMG",
+          "type": "number",
+          "value": 1
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Poison_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Poison_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 3
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 3,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Monster",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Activated",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": true,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Idle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Idle_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Idle_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fire",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Monster_Fire_10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 37
+                      },
+                      {
+                        "x": 77,
+                        "y": 118
+                      },
+                      {
+                        "x": 13,
+                        "y": 118
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Gem",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gem_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 26
+                      },
+                      {
+                        "x": 3,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gem_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 5
+                      },
+                      {
+                        "x": 29,
+                        "y": 26
+                      },
+                      {
+                        "x": 3,
+                        "y": 26
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Arrow",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Orange Arrow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "c7a381f15f0bb07adc63d78850702df44e8328a15db1ecb10ca1503491ed22a0",
+      "name": "FlatLightJoystick",
+      "tags": "",
+      "type": "SpriteMultitouchJoystick::SpriteMultitouchJoystick",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {},
+      "childrenContent": {
+        "Border": {
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Flat light joystick border.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "Thumb": {
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Flat light joystick thumb.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assetStoreId": "a9518cbba640f8287edf6c5eb05df6e2f825343bc6440e8d4afe9623831a3afc",
+      "name": "AButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        },
+        {
+          "name": "MultitouchButton",
+          "type": "SpriteMultitouchJoystick::MultitouchButton",
+          "ControllerIdentifier": 1,
+          "ButtonIdentifier": "A",
+          "TouchId": 0,
+          "TouchIndex": 0,
+          "IsReleased": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "A Button.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Score",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Score: 0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "3d6c54e76a9a06cbd7629c1e78388d4ab808bbf36d644c61d6a14c9ad34d4f89",
+      "name": "RedFlatBar",
+      "tags": "",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": true,
+        "BarTopPadding": 4,
+        "BarBottomPadding": 6,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "MaxValue": 16,
+        "InitialValue": 8
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 34,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "Flat Bar White Border.png",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 224
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Red Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Red Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      }
+    },
+    {
+      "assetStoreId": "0a398f1656e34f64758c909a71ca17cd69fd41bd251d89ff5a640303c4279f50",
+      "name": "BlueFlatBar",
+      "tags": "",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": true,
+        "BarTopPadding": 4,
+        "BarBottomPadding": 6,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "MaxValue": 16,
+        "InitialValue": 8
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 34,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "Flat Bar White Border.png",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 224
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Blue Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Blue Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "Stars",
+            "",
+            "\"Background\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "Knight",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Knight",
+            "=",
+            "1000"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "FallMarker"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "FlatLightJoystick",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "AButton",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TiledSpriteObject::Width"
+          },
+          "parameters": [
+            "Stars",
+            "=",
+            "CameraWidth()+50"
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::XOffset"
+          },
+          "parameters": [
+            "Stars",
+            "=",
+            "CameraCenterX()/3"
+          ]
+        },
+        {
+          "type": {
+            "value": "TiledSpriteObject::YOffset"
+          },
+          "parameters": [
+            "Stars",
+            "=",
+            "CameraCenterY()/3"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Score",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Knight",
+                "Gem",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PitchScaling",
+                "+",
+                "RandomFloatInRange(0.025,0.05)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"PitchScaling\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Ding",
+                "",
+                "50",
+                "Variable(PitchScaling)-0.1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Gem",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "\"Score: \" + ToString(Variable(Score))"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"PitchScaling\"",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "PitchScaling",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Fail Game",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Knight",
+                    ">",
+                    "FallMarker.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Knight",
+                    "Hazards",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GameScene\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Death",
+                "",
+                "75",
+                "0.8"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Win Game",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Knight",
+                "Star",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "WinGame",
+                "",
+                "50",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Mobile Controls",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"MobileControls\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SpriteMultitouchJoystick::MultitouchButton::IsPressed"
+                  },
+                  "parameters": [
+                    "AButton",
+                    "MultitouchButton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Knight",
+                    "PlatformerObject"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Camera Boundaries",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "CameraBoundarysMarker_Left.BoundingBoxRight()",
+                "Knight.Y()-500",
+                "CameraBoundarysMarker_Right.BoundingBoxLeft()",
+                "Knight.Y()+500",
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Enemy AI",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Knight",
+                "Monster",
+                "700",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Monster",
+                "Activated",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Monster",
+                "Activated",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Monster",
+                "Activated",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateLeftKey"
+              },
+              "parameters": [
+                "Monster",
+                "PlatformerObject"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Monster",
+                ">",
+                "FallMarker.Y()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Monster",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Health/Mana/Shield",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "Knight.Health::Health()",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "BlueFlatBar",
+                "=",
+                "Knight.Variable(Energy)",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Damage",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Knight",
+                "Poison",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Knight",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "Health",
+                "-",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "MobileControls",
+      "renderingType": "",
+      "visibility": false,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
+      "name": "MultitouchButton",
+      "type": "SpriteMultitouchJoystick::MultitouchButton"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerCharacterAnimator",
+      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+    },
+    {
+      "name": "PlatformerMultitouchMapper",
+      "type": "SpriteMultitouchJoystick::PlatformerMultitouchMapper"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "SmoothPlatformerCamera",
+      "type": "SmoothCamera::SmoothPlatformerCamera"
+    }
+  ]
+}

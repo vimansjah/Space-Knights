@@ -1,1 +1,6 @@
-GitHub Push test
+# Welcome to Space Knights!
+### By Maya, Vincent, and Jazz
+
+We the Space Knights of Exodia are on a quest to defeat our enemies the Spaced Eyed Dragons. Through the collection of our sacred stars we become empowered with skills that improve our mettle against our foes. We use star collection and space tech as a means to further advance our goal. Drawing from astronomy to help understand what each star represents and grants us, there are four key skills: enemy vanish, jump height control, solar flare, and speed travel.
+
+Enemy vanish is made possible by collecting a neutron star, which can be dense enough to make a black hole when it dies, and we can control it in a star ager that matures the neutron star so we can launch it at enemies as it forms a black hole, sucking the enemies into the black hole. The jump height control is a defense skill made possible through a gravity controller, space tech that helps adjust the force of gravity, so we can be as high or low as we want when fighting enemies. Solar flare is an attack method used to incinerate those who dare to cross us. You collect a star under the star category of red giant–in this case a sun–to use its energy to flame your enemies. And finally, wormhole tech is used for the skill speed travel. We use these skills to get a player to the next level, fighting various bosses to work towards the final boss: Star-eyed White Dragon. 

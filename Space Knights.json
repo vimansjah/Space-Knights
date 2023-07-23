@@ -1405,6 +1405,1112 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/4037e5e9b8a1ede7cb20a326256ce5d9e9a5d94715303743595e97375ceaabaf_Flat Bar Green Fill Bar.png",
           "name": "Flat Bar Green Fill Bar.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5239e2809c03d0ef4ea3aa4c93b823bd6dbf651f32c9835561baf1abdbe5aead_fire_1.png",
+          "name": "fire_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/9f7c89ced512e27dab44685be88b2651cc7c8ab3dd37ed16400e672be16c62b2_fire_10.png",
+          "name": "fire_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2e915e1f24165ef90b3c1de6cfa60d51736d796884fde7304ee3abf891678239_fire_11.png",
+          "name": "fire_11.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/8140d8adf30e7eb911ad7cf2c255a53c2c73e2d423d158a6b8cf92d2a523e1ce_fire_12.png",
+          "name": "fire_12.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2f4a0a3a0af4d85bda14f17125aed3d3d6b861f30c76529d80434b61c5ba0f88_fire_13.png",
+          "name": "fire_13.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/28f9b9a88309c7e6f2dee38aa0f3d3a0324d34deb30e4c732b19f966dfcb8b17_fire_14.png",
+          "name": "fire_14.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d372a83b639e0cc2c218158114addee89b9b12c128b8d18d5e5b85051eaa9618_fire_15.png",
+          "name": "fire_15.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5c29fb2c145fb09e3a4114b0151455d87b142222e08c834d0c2644db46745acb_fire_16.png",
+          "name": "fire_16.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_17.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/55d02c643ac44822065d9e7292dff57637d9b2dec118cdbae33dc79f01df8b5b_fire_17.png",
+          "name": "fire_17.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_18.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/dc97420fb56763ccbaf671f8ad7b7c125904e26595af55a4ab2221b63dcfa19e_fire_18.png",
+          "name": "fire_18.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_19.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/dca602b5ed6bb289b47ae98eca628e673d02a25cc78e77c3f7ff8ede93b7429b_fire_19.png",
+          "name": "fire_19.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/58091615c8a8d900c45d2ba6cf1d1be10ec2e2e75ba8f8433de3de3810d50f7b_fire_2.png",
+          "name": "fire_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_20.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/cd1982d1d4d7f6dcc29eb2b88378dadefa753bf924cd3023d9011e9915fa3873_fire_20.png",
+          "name": "fire_20.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_21.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7f1b6b05cb28806f8cb9b69c7d985f4a0130867f0af55618e5baf15e51159117_fire_21.png",
+          "name": "fire_21.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_22.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7ebd4f65e6aa72f12bb3df6ca64b7175ff1d5c32938e3c7410fb37dbe70dd917_fire_22.png",
+          "name": "fire_22.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_23.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0da769cb8c92c095c3d51abc8d7ae6d455de6880e07247cff393a5f487d8a610_fire_23.png",
+          "name": "fire_23.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_24.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/90f910ccc516bdb3af87920f7f384b4cd5a53cf4edf2732cdcc9531f055b310b_fire_24.png",
+          "name": "fire_24.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_25.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/710098d3341a48cdaeb31a55bc9ab931bae7bea8cc80df23d4b671b7168df2cc_fire_25.png",
+          "name": "fire_25.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_26.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/141f5138e1c39e4af3ad4d9d03bd6ce16be2f5529b12cbbee4ed0b96e384c8ec_fire_26.png",
+          "name": "fire_26.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_27.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/4fce1628b335fb4d0af43bb2cd83a53542bb246e32af1fded05b1d2984d8366b_fire_27.png",
+          "name": "fire_27.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_28.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0ec03219bd43f45794358766aa5235a5161e56c9dfa74004247915fa994569a3_fire_28.png",
+          "name": "fire_28.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_29.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3f86a2e24d6bb322f68f135a6b692055a8d26f2044c7249d7c135e270b22c0cc_fire_29.png",
+          "name": "fire_29.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ba5031af52fd084568b9b65005aafe8c1e782b6d4b235242d74c0359e417e816_fire_3.png",
+          "name": "fire_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_30.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c9ed4234d9b662be603a2cea97f11fb082d6b9c83cc703b5cc7f780ec64dba66_fire_30.png",
+          "name": "fire_30.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_31.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b5c8b6cee454e444085cbf65e2c25a0fd93361b3e11cc359bf827dd559ca8564_fire_31.png",
+          "name": "fire_31.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ac66d64d3a0b3e3386dd1d8751fb146d252943a1162b73aabfb5b341771f22ef_fire_32.png",
+          "name": "fire_32.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_33.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b6c5521dd97ee4eab744dd6695f03e02f5bf5f6f3a2b1857ece30440e9b37d0d_fire_33.png",
+          "name": "fire_33.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_34.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/e5bd80492fc5f16470b593332915f159ad5f1948978f47b678945e166730676c_fire_34.png",
+          "name": "fire_34.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_35.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/4e18e21011a13e1c5cff593df546e27e441969f471036c397410e7872f970876_fire_35.png",
+          "name": "fire_35.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_36.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b83c86735c257f9fb89dc607383cf19a3d3008362efe71276f85357856d11d5d_fire_36.png",
+          "name": "fire_36.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_37.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f6c627f0d5e53959c3f01f43689aab896028032c42e866b57792d80433cbd39c_fire_37.png",
+          "name": "fire_37.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_38.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d6695ea7fa9b828546f8c1501c22021ce2766e85fdfbae409dd7abdb9c155b6c_fire_38.png",
+          "name": "fire_38.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_39.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_39.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/6905a96dd84e3a045488f01d262f61eb1afc23e51093f3fbfa63fdf4a3d0d10c_fire_39.png",
+          "name": "fire_39.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/64dc036b1b3d81176d13c49d374389f3b36b7c80f06c855b14372ff9ab14f143_fire_4.png",
+          "name": "fire_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_40.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f4aa677aeeb7877ae60aa15f1848b2ee75da9ec26c5b51aab27d6f44826dd855_fire_40.png",
+          "name": "fire_40.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_41.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/edb0c3f6433034b7b8943abed28a2d87ceb2109354f4bd9ca0523416284739f8_fire_41.png",
+          "name": "fire_41.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_42.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c0fbb07b4a236692712d430d3c63968c3b578d87c8067c4840f7cf4a1e6a0c72_fire_42.png",
+          "name": "fire_42.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_43.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b60aa52e0c48b37c4df7e9355507453788965b01e2eb446ce4d22c6d2231bb71_fire_43.png",
+          "name": "fire_43.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_44.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/4c2db03ec2d80d63c1b1d3eb7b18dadf08630e2601a9f14a7769bcbbcc23b18d_fire_44.png",
+          "name": "fire_44.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_45.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/ad6a9b52c0a6f46e07feb814923c57eb562b3baf96f5ce929fd357f487937a33_fire_45.png",
+          "name": "fire_45.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_46.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/d9ff1c41097d71eb081e09e4f8b567559ab4e7879bf36c2ea63d8eec6a6ec494_fire_46.png",
+          "name": "fire_46.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_47.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_47.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/42850ce2a8ab775afb878879c12aef75fc8d914c26ae0fc0bcc9ab2e5bf03b06_fire_47.png",
+          "name": "fire_47.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_48.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_48.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/6ce135ff3778b43ad41057f43388810f82b23a6858d49646b420f541078c114b_fire_48.png",
+          "name": "fire_48.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_49.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_49.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/6d4d50235608032b8447e33f4339b948deb34af1a82ba68f2b29f659e118b493_fire_49.png",
+          "name": "fire_49.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2339a71e506efa624ecb80f3af68926816e52dc03acd121e88491b338588334b_fire_5.png",
+          "name": "fire_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_50.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_50.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/c00371dbbc9b2d083c5a9537d3780c6dba21d4ad46d5862dedd237a9ce64faf4_fire_50.png",
+          "name": "fire_50.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_51.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_51.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/cca667f33d943146f46681854e83672550916debd06396a7ad7c27e75b23c394_fire_51.png",
+          "name": "fire_51.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_52.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/7f9a4a4ec27869e6b06c47c289c55fa864e1d7517370a05dc912d5cfb8df9e76_fire_52.png",
+          "name": "fire_52.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_53.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/463316f25023ef59977057dfe2b6dcb541fd656e1f10b02a09483c3ba7d7680e_fire_53.png",
+          "name": "fire_53.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_54.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/2fdabdb4382f9cfbe0dd0874225de19a264092a886e37b283d67395106a8c6d1_fire_54.png",
+          "name": "fire_54.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_55.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_55.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5ed4eee6f617e95aa4aeac6234af20cf97d9f27121ed000f60a5bc651e927484_fire_55.png",
+          "name": "fire_55.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_56.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_56.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/3a5b5175cdaa6594a5c596f27b461306d7f59e94d107bbf6bed9dc0ae50a4a01_fire_56.png",
+          "name": "fire_56.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_57.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_57.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/80346fd50f31f2963e48dbaf843461b67698f74dcba57a376abf3eea81559e0f_fire_57.png",
+          "name": "fire_57.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_58.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_58.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/60751120ad85e7f3072916bad2610a240697a7a8ea2fc153a52b63436f67152b_fire_58.png",
+          "name": "fire_58.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_59.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_59.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/b5d62ab4dfa1efb01bb53fab88bcb32b5fc261ad6c66e513646823a6f15184d9_fire_59.png",
+          "name": "fire_59.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/a46bdf9bf88506a3f9bae294a8dfd83694df8950a8f04cd5a0caef80f0b3c534_fire_6.png",
+          "name": "fire_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_60.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/0fa1369b79ccd9116648b48a643fcf633682e75afb8e16653e5762b0740a32d3_fire_60.png",
+          "name": "fire_60.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_61.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_61.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/5239e2809c03d0ef4ea3aa4c93b823bd6dbf651f32c9835561baf1abdbe5aead_fire_61.png",
+          "name": "fire_61.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/f395db8602a5c57ce6db7d6def566c2ef37213af62f65f6065fcf4959271a375_fire_7.png",
+          "name": "fire_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/1c7ae34963aae37ff008f70cea5fbd775dd12d68424f87c2d534dc0adae9799d_fire_8.png",
+          "name": "fire_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fire_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Effects Pack/adc17cd84462356db160855b3323848e9319b5e313e47133246f5c8a2a45a749_fire_9.png",
+          "name": "fire_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Monster.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Wesxdz Game Assets/skullcup/Characters/efcc4c7bd5d61af14041ce090f9facb0991e5fe42471ed980a92fd8322d97cc0_Monster.png",
+          "name": "Monster.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Blink.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Blink.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/9704362271b587adae4672bb96e283b09610699d56a985af2f42ff20f9396e4b_Orc_Blink.png",
+          "name": "Orc_Blink.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Falling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Falling.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/1eecdc0ca68b93c209cadb418c05f368e18b93896953d2e7d480c8e9ea85c7f1_Orc_Falling.png",
+          "name": "Orc_Falling.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/61b538b89fdaf30e5bd4c624eb2e02252f9ddd7e8e47d1ef6dbf4f75aae91b89_Orc_Hurt.png",
+          "name": "Orc_Hurt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/2899f4bc6411d4f1d85da5e64ccb57fb045681abab10426b7f125f0b4c764080_Orc_Idle_1.png",
+          "name": "Orc_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/843d1b95b85547c062daa51f0182792de3994cc87d3f5e1dc953e62eb916df55_Orc_Idle_2.png",
+          "name": "Orc_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/bbf9f8c1b5a1869d1ce8fddff8fdb78b721259e7b02b240b446ffcb8d4793d69_Orc_Idle_3.png",
+          "name": "Orc_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/c187118d81014b7cebfb4ae08b6ac62c6993a6ff549de176734c3a974fa30dc9_Orc_Idle_4.png",
+          "name": "Orc_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/03a527d09807f51a85b49afd84cb7ef729328812105c6351d682ac28d6f1e588_Orc_Idle_5.png",
+          "name": "Orc_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/015fbd4724e86e24c4b29734a25e951a595ca41fb3ab69f18653470c3c0b07bd_Orc_Idle_6.png",
+          "name": "Orc_Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/ff8c676a7a85b1de11fcf8cceb6e30ae6015dc151f7ea3527157a906943589fb_Orc_Idle_7.png",
+          "name": "Orc_Idle_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Spear Jab_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Spear Jab_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/943218632a95ce7e630ac4e4f2cdbb9d71b230dbf8b83766db3a6394ce02353a_Orc_Spear Jab_1.png",
+          "name": "Orc_Spear Jab_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Spear Jab_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Spear Jab_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/2aa08b7ffefd82daa2262f84bca08c20de660b21074370facd8abfa69f1299dc_Orc_Spear Jab_2.png",
+          "name": "Orc_Spear Jab_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Spear Jab_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Spear Jab_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/ce931ff0bd8a8a8e4b0dccc056258f74a4a527b3506c5bee9b9d2d987350bdcc_Orc_Spear Jab_3.png",
+          "name": "Orc_Spear Jab_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Spear Jab_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Spear Jab_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/865e3a5508d540e86de01ec0d1eadc254fe61e68fcecaf957978c85fbf6583be_Orc_Spear Jab_4.png",
+          "name": "Orc_Spear Jab_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Spear Jab_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Spear Jab_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/38f4200ca6f7b57ae08cbc4e998c937d4ee1cb525599e59539d844ad1cbbc5c2_Orc_Spear Jab_5.png",
+          "name": "Orc_Spear Jab_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Spear Jab_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Spear Jab_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/521e7ad48fcff20b4f100e29b39831a62d9730c09216d7eef02bbace23e75f94_Orc_Spear Jab_6.png",
+          "name": "Orc_Spear Jab_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Walking_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Walking_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/4e4c5642e80210eaffbab123ad92978fbe372770bc65b8cb81f3b25b863873aa_Orc_Walking_1.png",
+          "name": "Orc_Walking_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Walking_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Walking_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/26c097d1c05d04566150fe60e2c4d0dbc03cb4d4f3020219966766a7f38232d5_Orc_Walking_2.png",
+          "name": "Orc_Walking_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Walking_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Walking_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/fbb222ec74176831e3bc92a66b2e89e777dd0f25d96407551a983fe417024286_Orc_Walking_3.png",
+          "name": "Orc_Walking_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Walking_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Walking_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/949bcc9dfd35428e9ca69eb15e7cf8062cf47da805a0f324a854c1da27af01f1_Orc_Walking_4.png",
+          "name": "Orc_Walking_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Walking_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Walking_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/1c388378ce07e2dedcc80426eaaeaac7e72ca741fd796b97fba417ed393c0d6b_Orc_Walking_5.png",
+          "name": "Orc_Walking_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orc_Walking_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orc_Walking_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 5/Orc/5916603736e31b2606a7df4ed112803ad1957f2d3cf00e9207d68c1fca783b30_Orc_Walking_6.png",
+          "name": "Orc_Walking_6.png"
+        }
+      },
+      {
+        "file": "assets/Hit 5.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "1f1ebe8108992cd14f6e6efd76a9b665945c890b833501122abe84f5c6519b24_Hit 5.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/1f1ebe8108992cd14f6e6efd76a9b665945c890b833501122abe84f5c6519b24_Hit 5.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

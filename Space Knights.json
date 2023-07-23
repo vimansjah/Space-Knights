@@ -2511,6 +2511,16 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/1f1ebe8108992cd14f6e6efd76a9b665945c890b833501122abe84f5c6519b24_Hit 5.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "SpaceKnightsSong.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "SpaceKnightsSong.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

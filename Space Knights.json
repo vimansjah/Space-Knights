@@ -2541,6 +2541,32 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/c49fc26e46b89aa8a5d48a1823fc292cffc6b610713ff3a3fff796e151412a59_Left-Arrow.png",
+          "name": "Left-Arrow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right-Arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right-Arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/3ac4ccfca394be1b0e90c245ed85246d69ad1324d0cc398d74b9a944f9e14605_Right-Arrow.png",
+          "name": "Right-Arrow.png"
+        }
       }
     ],
     "resourceFolders": []

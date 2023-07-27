@@ -925,6 +925,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 60,
+      "layer": "",
+      "name": "Star",
+      "persistentUuid": "e6a514fb-a164-4a8d-a6c1-3e573212c234",
+      "width": 60,
+      "x": 6752,
+      "y": 736,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [

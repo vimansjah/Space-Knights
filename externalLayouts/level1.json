@@ -1,0 +1,67 @@
+{
+  "associatedLayout": "GameScene",
+  "name": "level1",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1024,
+      "layer": "",
+      "name": "CameraBoundarysMarker_Left",
+      "persistentUuid": "282a3659-f45f-4a2f-8a1b-a8a8555e853f",
+      "width": 128,
+      "x": -128,
+      "y": -192,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1152,
+      "layer": "",
+      "name": "LargeBlockNarrowRectangle",
+      "persistentUuid": "29aa4552-3dc7-4aab-b389-bcb24eb7e8ec",
+      "width": 64,
+      "x": -32,
+      "y": -256,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "ad0f7951-efea-48b8-804d-f3f99ac4a22a",
+      "width": 1248,
+      "x": 32,
+      "y": 416,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.546875,
+    "windowMask": false
+  }
+}

@@ -2567,6 +2567,734 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/3ac4ccfca394be1b0e90c245ed85246d69ad1324d0cc398d74b9a944f9e14605_Right-Arrow.png",
           "name": "Right-Arrow.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Block Narrow Rectangle_Locked.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Block Narrow Rectangle_Locked.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Blocks/6f733837f9a71ad12aa56b64fd266698433d878030e56eb417914c2c0c4cab80_Large Block Narrow Rectangle_Locked.png",
+          "name": "Large Block Narrow Rectangle_Locked.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Block Narrow Rectangle_Normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Block Narrow Rectangle_Normal.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Blocks/9cd15eead3dcc7175b7386671e7c1336f1c6919fee7c806f168705c42ae9ae2b_Large Block Narrow Rectangle_Normal.png",
+          "name": "Large Block Narrow Rectangle_Normal.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Block Narrow Rectangle_Rotate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Block Narrow Rectangle_Rotate.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Rolling Ball Pack/Blocks/34803267fe02bf0f2c85d6a8db6d6a85122fe931d6a5dc258c7ac3671822c843_Large Block Narrow Rectangle_Rotate.png",
+          "name": "Large Block Narrow Rectangle_Rotate.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gas.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/04556cffa8fa75a9515382f3ad3d092361a7a339c612344926d372f906e3e7ed_Gas.png",
+          "name": "Gas.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/1b3c760456c5166f849cc73cbc53e9e59f3d33c2cdf96ed690d0e51af9acd169_Skeleton_Bone Pile Wakeup_1.png",
+          "name": "Skeleton_Bone Pile Wakeup_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/6d737b541baade4ca48a44eb5cb59941160c949498067aaae6d4c983382281ed_Skeleton_Bone Pile Wakeup_2.png",
+          "name": "Skeleton_Bone Pile Wakeup_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/d241d90038b2c5569f62fcacca63085fdf08ce35a6893a077231876730daf1ce_Skeleton_Bone Pile Wakeup_3.png",
+          "name": "Skeleton_Bone Pile Wakeup_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/24c54252a5d02384ac60ac052f68c8ae34add40c6c25a2630a7369415ae8f229_Skeleton_Bone Pile Wakeup_4.png",
+          "name": "Skeleton_Bone Pile Wakeup_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/fa20cbd9cb2ceca643fcf9753be45a536274fe2e65a65eb59371194372fdab75_Skeleton_Bone Pile Wakeup_5.png",
+          "name": "Skeleton_Bone Pile Wakeup_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/924ba78b8e735a8235a4c05465d8c50a6c463f92275b8cb892b5bd836ae342e1_Skeleton_Bone Pile Wakeup_6.png",
+          "name": "Skeleton_Bone Pile Wakeup_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile Wakeup_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile Wakeup_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/75d9d926bf67e7a800bf7c241bde71b327f43d8ffa936d66b48689853ab3ead4_Skeleton_Bone Pile Wakeup_7.png",
+          "name": "Skeleton_Bone Pile Wakeup_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Pile.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Pile.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/9418b63d910c29bc8042c274eef153561b5e69dc15c7d63f09bbbf1caeb75dd3_Skeleton_Bone Pile.png",
+          "name": "Skeleton_Bone Pile.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Toss_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Toss_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/e309312f164c06a08f36049e52141cb56311085efc2cda0ee2e85a7534074106_Skeleton_Bone Toss_1.png",
+          "name": "Skeleton_Bone Toss_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Toss_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Toss_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/8d582ccc5e892ef489aa420cd05752eb4e924c64fa88a5e0d23d80da093cd7aa_Skeleton_Bone Toss_2.png",
+          "name": "Skeleton_Bone Toss_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Toss_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Toss_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/9899c8212e28229c2a836565f7376956ed51d639a4a6fa8bddd9b9cd96ad9236_Skeleton_Bone Toss_3.png",
+          "name": "Skeleton_Bone Toss_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Toss_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Toss_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/ec9f7a9a4dc8250c65e66553aa5be734d54171d8dfabb3662424f239a855c92d_Skeleton_Bone Toss_4.png",
+          "name": "Skeleton_Bone Toss_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Bone Toss_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Bone Toss_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/5a73ef09ce2be4f69ce2be695ce9072ed3d5645a6ca1a48158c2a834379470e0_Skeleton_Bone Toss_5.png",
+          "name": "Skeleton_Bone Toss_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/24c54252a5d02384ac60ac052f68c8ae34add40c6c25a2630a7369415ae8f229_Skeleton_Crumbling Into Bone Pile_1.png",
+          "name": "Skeleton_Crumbling Into Bone Pile_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/612107f9a298bb8d6542b3c742ae14eb3709b7c8b45a9c1074dedd7de41451b3_Skeleton_Crumbling Into Bone Pile_2.png",
+          "name": "Skeleton_Crumbling Into Bone Pile_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/d241d90038b2c5569f62fcacca63085fdf08ce35a6893a077231876730daf1ce_Skeleton_Crumbling Into Bone Pile_3.png",
+          "name": "Skeleton_Crumbling Into Bone Pile_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/6d737b541baade4ca48a44eb5cb59941160c949498067aaae6d4c983382281ed_Skeleton_Crumbling Into Bone Pile_4.png",
+          "name": "Skeleton_Crumbling Into Bone Pile_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/1b3c760456c5166f849cc73cbc53e9e59f3d33c2cdf96ed690d0e51af9acd169_Skeleton_Crumbling Into Bone Pile_5.png",
+          "name": "Skeleton_Crumbling Into Bone Pile_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/8f1336f236b480ea0d073acca6b42113d239b7dc87b4edbd2088c4901f611517_Skeleton_Crumbling Into Bone Pile_6.png",
+          "name": "Skeleton_Crumbling Into Bone Pile_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Crumbling Into Bone Pile_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Crumbling Into Bone Pile_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/1b3c760456c5166f849cc73cbc53e9e59f3d33c2cdf96ed690d0e51af9acd169_Skeleton_Crumbling Into Bone Pile_7.png",
+          "name": "Skeleton_Crumbling Into Bone Pile_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Hurt_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Hurt_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/5c035ea074e0901fd64096aa944ff25a392b30a7790af266bd28fa5e3fb5e977_Skeleton_Hurt_1.png",
+          "name": "Skeleton_Hurt_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Hurt_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Hurt_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/2d6ec6b5038df6a340854060f7cd4bac9f461832b798c453ea701f62a91035ac_Skeleton_Hurt_2.png",
+          "name": "Skeleton_Hurt_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Inactive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Inactive.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/3555e76b06fa274109c760db921623040f3ee0c029b356609a952bc454d40d64_Skeleton_Inactive.png",
+          "name": "Skeleton_Inactive.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Jumping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Jumping.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/867719d2134841c600fa267f1f51eb185fbc553bffece9a354c79d71c9f67539_Skeleton_Jumping.png",
+          "name": "Skeleton_Jumping.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Landed_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Landed_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/f61ed22b4d0a44b7625751bc4b3d747c5161ef694ae8b2e7bf23a72ec98c100a_Skeleton_Landed_1.png",
+          "name": "Skeleton_Landed_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Landed_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Landed_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/c8eacfaa024cf7b495103b21df3d319240e74b4faf5f0a350b92226b3894aae0_Skeleton_Landed_2.png",
+          "name": "Skeleton_Landed_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/75d9d926bf67e7a800bf7c241bde71b327f43d8ffa936d66b48689853ab3ead4_Skeleton_Limping Movement_1.png",
+          "name": "Skeleton_Limping Movement_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/ccdcf8cae072495419290eae7f628f863433929b7ac892da29fb30425d76c756_Skeleton_Limping Movement_2.png",
+          "name": "Skeleton_Limping Movement_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/acd8deea65d453fb5eb0cb8e238bb72deb805ead85dbe37aa8a7a4156c19421a_Skeleton_Limping Movement_3.png",
+          "name": "Skeleton_Limping Movement_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/c7f12893176cf04cf1f22a5af6bb861d3c171f3ce5c8c91ec68c37d7a0b165ff_Skeleton_Limping Movement_4.png",
+          "name": "Skeleton_Limping Movement_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/0745bdb774cd4b1b0065ce177460470f6b280cf9cd060e641d073d2af6eb2bc4_Skeleton_Limping Movement_5.png",
+          "name": "Skeleton_Limping Movement_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Limping Movement_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Limping Movement_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/a729443c23bb1c2530bb0706534946392b23499d36da880f5fd3b267ab824bf9_Skeleton_Limping Movement_6.png",
+          "name": "Skeleton_Limping Movement_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Preparing Jump_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Preparing Jump_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/924ba78b8e735a8235a4c05465d8c50a6c463f92275b8cb892b5bd836ae342e1_Skeleton_Preparing Jump_1.png",
+          "name": "Skeleton_Preparing Jump_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Preparing Jump_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Preparing Jump_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/1cbf17bb15d15c92e294d7d5d91462e1b5550caa80348d52a6f45caa933e4f88_Skeleton_Preparing Jump_2.png",
+          "name": "Skeleton_Preparing Jump_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Preparing Jump_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Preparing Jump_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/b59d4a2f1523ce309552643161b9b5f58ddb07490b6e377c98f19e5be4d18332_Skeleton_Preparing Jump_3.png",
+          "name": "Skeleton_Preparing Jump_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/75d9d926bf67e7a800bf7c241bde71b327f43d8ffa936d66b48689853ab3ead4_Skeleton_Standing Idle_1.png",
+          "name": "Skeleton_Standing Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/e07042a1486d41f94c39ae5d7433ab4328bfae9926f9e45157ceacf44d2fe076_Skeleton_Standing Idle_2.png",
+          "name": "Skeleton_Standing Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/59b4c2cef23b828a25432ccbc3444c0377003b3d7b4403b76d1fa916b2694f4a_Skeleton_Standing Idle_3.png",
+          "name": "Skeleton_Standing Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/aa5aec0a4c519ab1c59977c5363736fa8d4000629cc0bbf13b866ca37b54419d_Skeleton_Standing Idle_4.png",
+          "name": "Skeleton_Standing Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/b380f967eaf8674f15b278338c7f4c41baf6f3b41ca782ccbf6a4b5579e77769_Skeleton_Standing Idle_5.png",
+          "name": "Skeleton_Standing Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/288f3bde72d9da5a430c0a423e077a9784296a57216a1a5eac9ce0fbe88a530d_Skeleton_Standing Idle_6.png",
+          "name": "Skeleton_Standing Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/b8e93a5426fe815886fc94db7879b42cdf12b04b2decd41918183ca3367040bd_Skeleton_Standing Idle_7.png",
+          "name": "Skeleton_Standing Idle_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/9584bb4c95078ec48901d8810a0ae0a92422609d0bf61be25fec397ccdb5b411_Skeleton_Standing Idle_8.png",
+          "name": "Skeleton_Standing Idle_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Idle_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/924ba78b8e735a8235a4c05465d8c50a6c463f92275b8cb892b5bd836ae342e1_Skeleton_Standing Idle_9.png",
+          "name": "Skeleton_Standing Idle_9.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Wakeup_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Wakeup_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/9584bb4c95078ec48901d8810a0ae0a92422609d0bf61be25fec397ccdb5b411_Skeleton_Standing Wakeup_1.png",
+          "name": "Skeleton_Standing Wakeup_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Wakeup_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Wakeup_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/924ba78b8e735a8235a4c05465d8c50a6c463f92275b8cb892b5bd836ae342e1_Skeleton_Standing Wakeup_2.png",
+          "name": "Skeleton_Standing Wakeup_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing Wakeup_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing Wakeup_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/75d9d926bf67e7a800bf7c241bde71b327f43d8ffa936d66b48689853ab3ead4_Skeleton_Standing Wakeup_3.png",
+          "name": "Skeleton_Standing Wakeup_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Standing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Standing.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/1f5dce5096db09cc4094232933ad5a9a6d67eb8f5d3cb1f88deee58c3607cc2b_Skeleton_Standing.png",
+          "name": "Skeleton_Standing.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Twitching Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Twitching Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/75d9d926bf67e7a800bf7c241bde71b327f43d8ffa936d66b48689853ab3ead4_Skeleton_Twitching Idle_1.png",
+          "name": "Skeleton_Twitching Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Twitching Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Twitching Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/6f2921a9179f11ff0c4014856a99a389c18f05ccf0b5904986f3762f26ce46c0_Skeleton_Twitching Idle_2.png",
+          "name": "Skeleton_Twitching Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Twitching Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Twitching Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/75d9d926bf67e7a800bf7c241bde71b327f43d8ffa936d66b48689853ab3ead4_Skeleton_Twitching Idle_3.png",
+          "name": "Skeleton_Twitching Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Skeleton_Twitching Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Skeleton_Twitching Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/6748661ae7bb25e24db7090dbea39911d799c7b83ae22c65ca9126eec3f7f66d_Skeleton_Twitching Idle_4.png",
+          "name": "Skeleton_Twitching Idle_4.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -2577,7 +3305,15 @@
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/gamescene"
+      "referenceTo": "/layouts/base-stage"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/base-stage2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/base-stage3"
     }
   ],
   "externalEvents": [],

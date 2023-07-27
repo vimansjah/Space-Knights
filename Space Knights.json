@@ -3295,6 +3295,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 6/Skeleton/6748661ae7bb25e24db7090dbea39911d799c7b83ae22c65ca9126eec3f7f66d_Skeleton_Twitching Idle_4.png",
           "name": "Skeleton_Twitching Idle_4.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_Stone.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1e854416e1ae7956f9fc68fba46f488b28081586a4a4185d407ccfcba814b39a_Icon Background_Stone.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icon Background/1e854416e1ae7956f9fc68fba46f488b28081586a4a4185d407ccfcba814b39a_Icon Background_Stone.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

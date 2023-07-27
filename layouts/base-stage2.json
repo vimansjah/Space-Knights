@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.529035740215692,
+    "zoomFactor": 0.1403985780603425,
     "windowMask": false
   },
   "objectsGroups": [
@@ -945,6 +945,7 @@
   ],
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Knight",
       "tags": "",
@@ -4828,6 +4829,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Star",
       "tags": "",
@@ -5019,6 +5021,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Poison",
       "tags": "",
@@ -5134,6 +5137,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Monster",
       "tags": "",
@@ -5870,6 +5874,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Gem",
       "tags": "",
@@ -6002,6 +6007,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Arrow",
       "tags": "",
@@ -6053,6 +6059,7 @@
       "content": {},
       "childrenContent": {
         "Border": {
+          "adaptCollisionMaskAutomatically": false,
           "updateIfNotVisible": false,
           "animations": [
             {
@@ -6087,6 +6094,7 @@
           ]
         },
         "Thumb": {
+          "adaptCollisionMaskAutomatically": false,
           "updateIfNotVisible": false,
           "animations": [
             {
@@ -6123,6 +6131,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "a9518cbba640f8287edf6c5eb05df6e2f825343bc6440e8d4afe9623831a3afc",
       "name": "AButton",
       "tags": "",
@@ -6338,6 +6347,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "acc53050d6450ffd55486435b5b49dc43d549a6d25081972fb764a61d5d91d1a",
       "name": "Fire",
       "tags": "",
@@ -9046,6 +9056,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "0764a08413768f367be0163d300f94095de7e34ce435da06dc572d45bd851442",
       "name": "Monster2",
       "tags": "",
@@ -9106,6 +9117,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "7f0946f2119a37fcc8635bb3812e55c8e54a7817a25b77d0dff94b04c3ca8e73",
       "name": "Orc",
       "tags": "",
@@ -10286,6 +10298,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "13a9cef806e970f1b9426f37cf41e27eb70fffedac02cd4736c023201afb7011",
       "name": "Left",
       "tags": "",
@@ -10353,6 +10366,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "f54fecd6e221a9968e175ebdb5171185c3e13bdc56282776270df4f791575ab8",
       "name": "Right",
       "tags": "",
@@ -10420,6 +10434,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "d85d85bdbf3fdb810095bbf0754b1d1843be378bab01c7509ccf0c361d09bf2f",
       "name": "LargeBlockNarrowRectangle",
       "tags": "",
@@ -10630,6 +10645,7 @@
       "behaviors": []
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "adab978168a4868cc90b2aa8ab3dc22ccf38a010e5430258c8e1d30f870eb96d",
       "name": "Skeleton",
       "tags": "",
@@ -10646,6 +10662,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -10658,9 +10676,7 @@
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
           "maxSpeed": 250,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0

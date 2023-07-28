@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.15508574551593207,
+    "zoomFactor": 0.4194339782759153,
     "windowMask": false
   },
   "objectsGroups": [
@@ -131,6 +131,7 @@
     {
       "angle": 0,
       "customSize": true,
+      "depth": 0,
       "height": 1728,
       "layer": "",
       "name": "CameraBoundarysMarker_Left",
@@ -251,13 +252,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 64,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "09b8f180-e767-4bd7-ba2c-d4ab8e22e6c3",
       "width": 128,
-      "x": 2880,
-      "y": 448,
+      "x": 2976,
+      "y": 544,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -296,6 +298,7 @@
     {
       "angle": 0,
       "customSize": true,
+      "depth": 0,
       "height": 128,
       "layer": "",
       "name": "RedPlatform",
@@ -416,7 +419,8 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 96,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "755c0dd2-a820-41a3-a499-54a464655610",
@@ -1167,8 +1171,8 @@
       "name": "Fire",
       "persistentUuid": "a1a4b78d-97b1-4830-80c2-f511b07fc8b2",
       "width": 0,
-      "x": 3324,
-      "y": 608,
+      "x": 3548,
+      "y": 348,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -1405,7 +1409,7 @@
       "persistentUuid": "0bb093f1-78f2-4f86-8bb7-a366a29afa0d",
       "width": 64,
       "x": 3008,
-      "y": 736,
+      "y": 416,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -1583,6 +1587,198 @@
       "x": 3200,
       "y": 960,
       "zOrder": -2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 1,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "8c54f292-9fcd-4a18-83ee-5ac1a1744c6c",
+      "width": 1536,
+      "x": 64,
+      "y": 960,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "dc5ddae9-dd23-461c-866c-a9c050a70c1c",
+      "width": 1568,
+      "x": 32,
+      "y": 960,
+      "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "98923a9d-5444-4a88-b8fe-fb2fa78a02ee",
+      "width": 320,
+      "x": 1600,
+      "y": 928,
+      "zOrder": -13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "052c5ac3-8aa5-49fa-a6bf-4aeb4e9059e7",
+      "width": 320,
+      "x": 1920,
+      "y": 960,
+      "zOrder": -12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "12d7cc6e-cf50-4eda-ac07-6dd2acaef8b6",
+      "width": 320,
+      "x": 2880,
+      "y": 928,
+      "zOrder": -6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "c3a46251-157c-496c-9230-c5cfce9f3677",
+      "width": 320,
+      "x": 2240,
+      "y": 928,
+      "zOrder": -11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "a0946bc8-3deb-4e8b-8824-0b63dba31298",
+      "width": 320,
+      "x": 3520,
+      "y": 928,
+      "zOrder": -5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "9054fbc3-497d-48b8-aa5c-4c685343ef60",
+      "width": 320,
+      "x": 4160,
+      "y": 928,
+      "zOrder": -7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "ec5df1e8-deda-4953-a878-9ba9428ceafd",
+      "width": 320,
+      "x": 3840,
+      "y": 960,
+      "zOrder": -4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "37426d8f-df7c-4052-bef3-b564ad39cbd9",
+      "width": 320,
+      "x": 4224,
+      "y": 896,
+      "zOrder": -8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "1ac97c9c-eb0c-47f5-a082-f39b5f2cee20",
+      "width": 320,
+      "x": 4288,
+      "y": 864,
+      "zOrder": -9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "HiddenFloor",
+      "persistentUuid": "5f4db29b-27e1-43ec-aaae-92c9126f3547",
+      "width": 2496,
+      "x": 4352,
+      "y": 832,
+      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -5621,8 +5817,8 @@
       "behaviors": [
         {
           "name": "Platform",
-          "platformType": "Jumpthru",
           "type": "PlatformBehavior::PlatformBehavior",
+          "platformType": "Jumpthru",
           "canBeGrabbed": true,
           "yGrabOffset": 0
         }
@@ -11260,7 +11456,15 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "NormalPlatform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
     }
   ],
   "events": [
@@ -11321,11 +11525,12 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundCanal"
           },
           "parameters": [
             "",
             "SpaceKnightsSong.mp3",
+            "1",
             "yes",
             "10",
             "1"
@@ -11598,6 +11803,15 @@
                 "",
                 "75",
                 "0.8"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "1"
               ]
             }
           ]
@@ -12359,6 +12573,18 @@
                 "=",
                 "\"Score: \" + ToString(Variable(Score))"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Ding",
+                "",
+                "50",
+                "1"
+              ]
             }
           ]
         }
@@ -12419,7 +12645,7 @@
                 "",
                 "1f1ebe8108992cd14f6e6efd76a9b665945c890b833501122abe84f5c6519b24_Hit 5.aac",
                 "",
-                "75",
+                "50",
                 ""
               ]
             }
@@ -12499,7 +12725,7 @@
                 "",
                 "1f1ebe8108992cd14f6e6efd76a9b665945c890b833501122abe84f5c6519b24_Hit 5.aac",
                 "",
-                "75",
+                "50",
                 ""
               ]
             }
@@ -12578,6 +12804,15 @@
               "parameters": [
                 "CurrentLevel",
                 "\"Base Stage2\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
                 "1"
               ]
             }

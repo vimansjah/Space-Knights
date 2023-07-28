@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.1403985780603425,
+    "zoomFactor": 0.15508574551593748,
     "windowMask": false
   },
   "objectsGroups": [
@@ -121,8 +121,8 @@
       "name": "Knight",
       "persistentUuid": "a0eda376-e73a-467c-b8ea-b1a9c975f9ff",
       "width": 103,
-      "x": 256,
-      "y": 380,
+      "x": 224,
+      "y": 387,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,7 +131,8 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 1728,
+      "depth": 0,
+      "height": 2752,
       "layer": "",
       "name": "CameraBoundarysMarker_Left",
       "persistentUuid": "2a25b653-d059-42e4-ac45-56116a27a2a3",
@@ -151,8 +152,8 @@
       "name": "FallMarker",
       "persistentUuid": "69e9a542-3f78-460f-8075-75135cdb145c",
       "width": 1280,
-      "x": 0,
-      "y": 1216,
+      "x": 32,
+      "y": 1728,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -161,13 +162,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 896,
+      "depth": 0,
+      "height": 2144,
       "layer": "",
       "name": "CameraBoundarysMarker_Right",
       "persistentUuid": "423c6a79-1880-4038-aaa3-e3cab07bc830",
       "width": 128,
-      "x": 6848,
-      "y": 192,
+      "x": 8416,
+      "y": -544,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -176,7 +178,8 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "926b188d-d2bd-4241-8b21-8ff5ad862271",
@@ -206,13 +209,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "82686eae-90a3-4f13-9bf5-98424f1c64d6",
       "width": 1600,
-      "x": 0,
-      "y": 960,
+      "x": 1536,
+      "y": 1408,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -221,13 +225,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "12065deb-f989-4e5b-9f27-d829732c83cf",
-      "width": 2688,
-      "x": 4160,
-      "y": 832,
+      "width": 3072,
+      "x": 5344,
+      "y": 928,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -236,13 +241,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 30,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "33cbce82-dedd-408b-a7b1-950625eb36e0",
-      "width": 128,
-      "x": 3520,
-      "y": 448,
+      "width": 131,
+      "x": 5341,
+      "y": 192,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -251,13 +257,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "09b8f180-e767-4bd7-ba2c-d4ab8e22e6c3",
       "width": 128,
-      "x": 2880,
-      "y": 448,
+      "x": 2176,
+      "y": 1248,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -266,13 +273,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "5fa7dcf9-bbf5-4ed4-bca0-f06611306fa9",
       "width": 128,
-      "x": 2272,
-      "y": 448,
+      "x": 1952,
+      "y": 1152,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -281,13 +289,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 30,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "3aeeaa09-4f1f-4fa4-87fd-550632ecfd9d",
-      "width": 320,
-      "x": 3840,
-      "y": 704,
+      "width": 253,
+      "x": 4739,
+      "y": 640,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -296,13 +305,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "8b1861f6-2fad-4aa3-89ef-3e64c40c3b76",
       "width": 320,
-      "x": 3520,
-      "y": 832,
+      "x": 7168,
+      "y": 384,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -311,13 +321,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "cf921f5a-b171-4de9-82d3-33b7de54c398",
       "width": 320,
-      "x": 3840,
-      "y": 960,
+      "x": 6496,
+      "y": 672,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -326,13 +337,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "103f76d1-8109-4ffd-bded-029dc2e79ea4",
       "width": 320,
-      "x": 1920,
-      "y": 704,
+      "x": 128,
+      "y": 1024,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -341,28 +353,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
-      "layer": "",
-      "name": "RedPlatform",
-      "persistentUuid": "068bd91a-fe9c-4cac-afb6-7cc6995680f6",
-      "width": 320,
-      "x": 1600,
-      "y": 832,
-      "zOrder": 16,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "fcf2ffe5-51d1-4ff6-94f7-b0e8549fd710",
       "width": 320,
-      "x": 1920,
-      "y": 960,
+      "x": 480,
+      "y": 1120,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -371,13 +369,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "4a39d89c-ba49-4a04-8866-d958f9910380",
       "width": 320,
-      "x": 2560,
-      "y": 704,
+      "x": 2176,
+      "y": 992,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -386,13 +385,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "3ee53ede-e586-4f48-b736-71f40436d5de",
       "width": 320,
-      "x": 2240,
-      "y": 832,
+      "x": 832,
+      "y": 1216,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -401,13 +401,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "f428f53a-2439-4e78-bb9c-b118d5cafb82",
-      "width": 320,
-      "x": 2560,
-      "y": 960,
+      "width": 128,
+      "x": 1664,
+      "y": 704,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -416,13 +417,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "755c0dd2-a820-41a3-a499-54a464655610",
       "width": 320,
-      "x": 3200,
-      "y": 704,
+      "x": 3008,
+      "y": 768,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -431,13 +433,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "c82221bf-4b3a-4875-8883-0c0e1a2195ff",
-      "width": 320,
+      "width": 224,
       "x": 2880,
-      "y": 832,
+      "y": 160,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -446,13 +449,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 33,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "d2aa9236-479e-40cf-87b8-4154d6954f12",
       "width": 320,
-      "x": 3200,
-      "y": 960,
+      "x": 2592,
+      "y": 928,
       "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
@@ -461,13 +465,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 128,
+      "depth": 0,
+      "height": 32,
       "layer": "",
       "name": "RedPlatform",
       "persistentUuid": "3aed7c94-02e0-462d-80a0-70fd9720643d",
-      "width": 448,
-      "x": 4608,
-      "y": 704,
+      "width": 576,
+      "x": 7840,
+      "y": 128,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -511,8 +516,8 @@
       "name": "Left",
       "persistentUuid": "8baf035f-61cc-4981-87e5-06c2dbf4393a",
       "width": 0,
-      "x": 1312,
-      "y": 544,
+      "x": 1536,
+      "y": 530,
       "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
@@ -526,7 +531,7 @@
       "name": "Right",
       "persistentUuid": "75682443-bfb4-42b2-87c3-fa4f5b754c87",
       "width": 0,
-      "x": 800,
+      "x": 640,
       "y": 544,
       "zOrder": 30,
       "numberProperties": [],
@@ -541,8 +546,8 @@
       "name": "Right",
       "persistentUuid": "7c7cbf76-8aff-4abd-8d31-a9a020942554",
       "width": 0,
-      "x": 1106,
-      "y": 914,
+      "x": 850,
+      "y": 1184,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -556,8 +561,8 @@
       "name": "Right",
       "persistentUuid": "ac06c9c6-5026-4492-9271-2a2e05ab32eb",
       "width": 0,
-      "x": 1984,
-      "y": 672,
+      "x": 2322,
+      "y": 1376,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -571,8 +576,8 @@
       "name": "Right",
       "persistentUuid": "7610ea97-f790-4491-a3f4-d0ef26b319e2",
       "width": 0,
-      "x": 2624,
-      "y": 658,
+      "x": 3026,
+      "y": 736,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -580,14 +585,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 14,
       "layer": "",
       "name": "Right",
       "persistentUuid": "0bd9f38d-6c0c-402d-9cc4-7e0750f7912e",
-      "width": 0,
-      "x": 2592,
-      "y": 896,
+      "width": 32,
+      "x": 2176,
+      "y": 960,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -595,44 +601,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Right",
-      "persistentUuid": "021d75ec-8417-4c9c-80fb-0e830d39b9bc",
-      "width": 0,
-      "x": 3264,
-      "y": 640,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Right",
-      "persistentUuid": "54262a0d-14b0-4119-b46a-60a405bc93f4",
-      "width": 0,
-      "x": 3232,
-      "y": 896,
-      "zOrder": 30,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 14,
       "layer": "",
       "name": "Right",
       "persistentUuid": "7ba11098-474f-4640-bc28-aba1cb24cc00",
-      "width": 0,
-      "x": 3904,
-      "y": 640,
+      "width": 16,
+      "x": 4752,
+      "y": 608,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -646,8 +623,8 @@
       "name": "Right",
       "persistentUuid": "ee3abf94-c53c-482b-9350-3ebc1ea7ef44",
       "width": 0,
-      "x": 4736,
-      "y": 640,
+      "x": 3776,
+      "y": 960,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -661,8 +638,8 @@
       "name": "Right",
       "persistentUuid": "c86b0521-75b7-4a18-9e9e-8e571c954ffe",
       "width": 0,
-      "x": 5216,
-      "y": 800,
+      "x": 4562,
+      "y": 946,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -676,8 +653,8 @@
       "name": "Left",
       "persistentUuid": "ba4f492b-f512-4068-bf38-5850728e607b",
       "width": 0,
-      "x": 6130,
-      "y": 818,
+      "x": 6048,
+      "y": 896,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -691,8 +668,8 @@
       "name": "Left",
       "persistentUuid": "2910e978-1fcb-41e0-ac17-521e658aa1f0",
       "width": 0,
-      "x": 5024,
-      "y": 640,
+      "x": 4320,
+      "y": 946,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -700,44 +677,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 14,
       "layer": "",
       "name": "Left",
       "persistentUuid": "5ca751fb-6546-4906-8393-8187dcd358a0",
-      "width": 0,
-      "x": 4096,
-      "y": 640,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Left",
-      "persistentUuid": "ab1b450b-2ed6-41c3-abbe-a62543610600",
-      "width": 0,
-      "x": 3456,
-      "y": 640,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Left",
-      "persistentUuid": "bb7ff0d7-a1ef-467a-b333-5038d81e3935",
-      "width": 0,
-      "x": 3456,
-      "y": 896,
+      "width": 16,
+      "x": 4960,
+      "y": 608,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -751,23 +699,8 @@
       "name": "Left",
       "persistentUuid": "fbe74ff1-1908-4d96-96b5-44c317f036b1",
       "width": 0,
-      "x": 2848,
-      "y": 640,
-      "zOrder": 31,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Left",
-      "persistentUuid": "058e5f16-1605-40fd-a210-9d4300898cf6",
-      "width": 0,
-      "x": 2848,
-      "y": 896,
+      "x": 3296,
+      "y": 736,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -781,8 +714,8 @@
       "name": "Left",
       "persistentUuid": "e14f32dc-fec0-4e86-88e8-9500f7714b72",
       "width": 0,
-      "x": 2162,
-      "y": 672,
+      "x": 2016,
+      "y": 1376,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -796,8 +729,8 @@
       "name": "Left",
       "persistentUuid": "adb21952-7a23-4c35-8af4-0ebd39c911d2",
       "width": 0,
-      "x": 1568,
-      "y": 896,
+      "x": 1120,
+      "y": 1184,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -827,8 +760,8 @@
       "name": "Right",
       "persistentUuid": "cb01f47c-37d8-4e12-9a6c-11c3bdcf3c83",
       "width": 0,
-      "x": 5856,
-      "y": 800,
+      "x": 5536,
+      "y": 896,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -842,8 +775,8 @@
       "name": "Left",
       "persistentUuid": "ac57198e-72f9-475f-af76-721f3cfd69b6",
       "width": 0,
-      "x": 5600,
-      "y": 800,
+      "x": 5266,
+      "y": 946,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -857,23 +790,23 @@
       "name": "Arrow",
       "persistentUuid": "3c126db5-bb7f-458c-bee2-c659f7dacaf8",
       "width": 0,
-      "x": 2528,
-      "y": 416,
+      "x": 2272,
+      "y": 704,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 202,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "Arrow",
       "persistentUuid": "c3750f49-7bb9-495d-94bb-deadb4b293b9",
       "width": 0,
-      "x": 4000,
-      "y": 416,
+      "x": 3520,
+      "y": 1218,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -881,14 +814,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 121,
       "layer": "",
       "name": "Arrow",
       "persistentUuid": "2a3bc9dd-8cd9-4cd0-90ce-e70996e3a828",
-      "width": 0,
-      "x": 5568,
-      "y": 544,
+      "width": 137,
+      "x": 4128,
+      "y": 487,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -903,8 +837,8 @@
       "name": "Gas",
       "persistentUuid": "dd9295dc-8fee-4241-a542-de59ab8e8351",
       "width": 117,
-      "x": 713,
-      "y": 542,
+      "x": 233,
+      "y": 478,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -919,8 +853,8 @@
       "name": "Skeleton",
       "persistentUuid": "fb81cddf-3445-4433-ab6b-9b73050bd0d1",
       "width": 64,
-      "x": 864,
-      "y": 512,
+      "x": 3008,
+      "y": 1344,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -935,9 +869,2219 @@
       "name": "Star",
       "persistentUuid": "e6a514fb-a164-4a8d-a6c1-3e573212c234",
       "width": 60,
-      "x": 6752,
-      "y": 736,
+      "x": 8256,
+      "y": -92,
       "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "c3a14192-11af-43ea-b323-505abec42186",
+      "width": 320,
+      "x": 1184,
+      "y": 1312,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "24b62931-d927-4a4f-a954-43a4253af0de",
+      "width": 160,
+      "x": 1888,
+      "y": 832,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "20d905b3-7b80-47ce-b0f1-f40a1e19514e",
+      "width": 128,
+      "x": 6240,
+      "y": 768,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "9ed57344-be4d-4002-bc81-3bfd9f6bc196",
+      "width": 128,
+      "x": 3488,
+      "y": 864,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "9b432b24-f8de-427c-b000-7544c3ee309c",
+      "width": 128,
+      "x": 4512,
+      "y": 546,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "83f115ed-8dbf-4dbb-b9cd-280829f0947b",
+      "width": 140,
+      "x": 5120,
+      "y": 258,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "f42a6e0c-30fd-48f7-a2b6-d8e6389e4bc7",
+      "width": 128,
+      "x": 4896,
+      "y": 320,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 30,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "3c1d1020-61fa-42be-a2e0-c5135617c905",
+      "width": 128,
+      "x": 4704,
+      "y": 416,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "d4d7cdff-ebe6-4c91-b380-26a4947cf976",
+      "width": 256,
+      "x": 3520,
+      "y": 1504,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "4064104a-a5c7-4606-b4bc-99b57d52b074",
+      "width": 224,
+      "x": 3232,
+      "y": 1472,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "88c9c44b-8ac5-4e82-8828-abb82e8defc9",
+      "width": 1568,
+      "x": 32,
+      "y": 576,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "d9a500b1-b298-429b-b269-38053ef85877",
+      "width": 320,
+      "x": 128,
+      "y": 1024,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "163d85e6-72cd-4bd0-99d5-f7c00dd5a2ab",
+      "width": 320,
+      "x": 480,
+      "y": 1120,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "c5f961ad-4c40-41f1-8e46-d53d1a10b8cb",
+      "width": 320,
+      "x": 832,
+      "y": 1216,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "419ede94-ea75-4081-b282-964cccdeba9b",
+      "width": 320,
+      "x": 1184,
+      "y": 1312,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 128,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "c022e41e-8038-43af-8d82-50a96c19fdc7",
+      "width": 1600,
+      "x": 1536,
+      "y": 1408,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "b56c3c0f-2e77-436c-bc37-7b63b7230468",
+      "width": 1600,
+      "x": 3712,
+      "y": 992,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "0c29af75-1797-479b-80a7-ab465a50b458",
+      "width": 128,
+      "x": 1664,
+      "y": 704,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "32e1a636-b9f4-4995-a90c-1026b625c35b",
+      "width": 128,
+      "x": 2176,
+      "y": 1248,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "e22cb66e-c5de-4ad6-91e4-10fa37236f0e",
+      "width": 128,
+      "x": 1952,
+      "y": 1152,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "1966bb0e-5d7f-4970-9d2b-d2172332aa30",
+      "width": 160,
+      "x": 1888,
+      "y": 832,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "b4baa92b-a954-41bf-9240-02c0a7b0a27b",
+      "width": 320,
+      "x": 2176,
+      "y": 992,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 608,
+      "layer": "",
+      "name": "LAdder",
+      "persistentUuid": "e6d2c70f-c966-435a-bb3d-92c9d39dadf1",
+      "width": 64,
+      "x": 3104,
+      "y": 160,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "1395aa9a-a525-4924-908f-a795b5d68ccf",
+      "width": 320,
+      "x": 2592,
+      "y": 928,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "50c06bfa-705d-465b-b011-404887d3fe1d",
+      "width": 320,
+      "x": 3008,
+      "y": 768,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "9af55595-431d-435f-85bc-be6c3981599d",
+      "width": 320,
+      "x": 2880,
+      "y": 160,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "339f7c23-9f10-40b3-b6af-b8ed32062a08",
+      "width": 224,
+      "x": 3232,
+      "y": 1472,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "f9dc9202-05f6-4cc7-9652-f56a226cf6fc",
+      "width": 256,
+      "x": 3520,
+      "y": 1504,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "1c16297e-1ac8-48c1-9137-9e0afa0c0976",
+      "width": 64,
+      "x": 3552,
+      "y": 1440,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "b0b6834d-fbdf-4f08-8b4e-80648c6e2d75",
+      "width": 64,
+      "x": 1312,
+      "y": 1248,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "3cdaab5d-1f95-4318-8aa9-18b432ded4e5",
+      "width": 64,
+      "x": 256,
+      "y": 960,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "3a1b46bf-082b-45fb-ac32-50b30161f933",
+      "width": 64,
+      "x": 352,
+      "y": 960,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "332aa765-7757-447d-9feb-69836bf6499e",
+      "width": 64,
+      "x": 160,
+      "y": 960,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "7708ca29-c22c-4423-b9cd-f37f498d8d2f",
+      "width": 64,
+      "x": 3104,
+      "y": 96,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "20c984d1-777f-426c-945b-28497349f89e",
+      "width": 64,
+      "x": 3008,
+      "y": 96,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "51de4a62-9738-49fe-9952-20796ecc87b3",
+      "width": 64,
+      "x": 2912,
+      "y": 96,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "c4e84b32-247f-4c7b-9aa9-ec21a6579b6c",
+      "width": 64,
+      "x": 2688,
+      "y": 864,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "4bfd70ab-c159-4cbb-8b6a-1a87eadfe47d",
+      "width": 64,
+      "x": 1696,
+      "y": 608,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "5d5e310e-8169-4f20-a3d3-10e1fe3ecfd3",
+      "width": 64,
+      "x": 2208,
+      "y": 1152,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "84ba619a-325e-4e26-a711-bd760c0cd352",
+      "width": 64,
+      "x": 2400,
+      "y": 1344,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "17d00fd9-fff5-4db8-ac9a-8333b90bc46c",
+      "width": 70,
+      "x": 4864,
+      "y": 578,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "1a289787-fdab-40de-b8c9-9251a0b44b19",
+      "width": 64,
+      "x": 1856,
+      "y": 1344,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "f7c4dce3-1bb2-4313-8527-029107db72e2",
+      "width": 64,
+      "x": 1600,
+      "y": 1344,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "cd978e3b-ac26-48a5-aff2-477a114b0bcd",
+      "width": 64,
+      "x": 3072,
+      "y": 704,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "f3a1dd72-bdb9-4070-bf2f-13453b4ac611",
+      "width": 64,
+      "x": 4576,
+      "y": 928,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "bdb0c29a-869d-4070-9658-05ec67dd974e",
+      "width": 64,
+      "x": 2272,
+      "y": 928,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "09d318dd-bceb-4317-95a4-483c00905318",
+      "width": 64,
+      "x": 512,
+      "y": 1056,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "14aa28b1-d4f7-4cdb-975e-d2c790ab4b0e",
+      "width": 64,
+      "x": 1216,
+      "y": 1248,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "b544689f-4acd-4d59-b054-b2b73b6b8a45",
+      "width": 64,
+      "x": 864,
+      "y": 1152,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Left",
+      "persistentUuid": "c1ebf472-6f95-44d5-82c2-5f4dec2e79b7",
+      "width": 0,
+      "x": 2464,
+      "y": 960,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Left",
+      "persistentUuid": "a0d3e842-294c-47af-93f6-9b7ccfe547c4",
+      "width": 0,
+      "x": 3072,
+      "y": 1376,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Left",
+      "persistentUuid": "8541ae25-67fb-4990-bc9c-64049f4c9339",
+      "width": 0,
+      "x": 754,
+      "y": 1088,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Left",
+      "persistentUuid": "23f993dd-8a62-4d25-b5ea-30863aa24299",
+      "width": 0,
+      "x": 1458,
+      "y": 1266,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Right",
+      "persistentUuid": "055db0d6-94ab-4510-ab83-01eb981a6d3b",
+      "width": 0,
+      "x": 1568,
+      "y": 1362,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Right",
+      "persistentUuid": "d9c35e37-a11f-430a-9e9a-b04fdaefbddc",
+      "width": 0,
+      "x": 512,
+      "y": 1074,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Right",
+      "persistentUuid": "db222f6e-a174-4c80-be31-18b59bab1009",
+      "width": 0,
+      "x": 1202,
+      "y": 1266,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "3b057279-da0b-4e27-a491-a8368952537b",
+      "width": 1600,
+      "x": 3712,
+      "y": 992,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "60f397b6-bf78-466a-8213-373f84025edb",
+      "width": 128,
+      "x": 3488,
+      "y": 864,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "b21bb38d-367b-4f4c-892c-20f8db2f828a",
+      "width": 64,
+      "x": 4704,
+      "y": 928,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "6780be62-8056-470e-996c-8c0827335767",
+      "width": 320,
+      "x": 7136,
+      "y": 128,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "6d863044-c779-40f7-875b-be3c27130a28",
+      "width": 3072,
+      "x": 5344,
+      "y": 928,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "b231a7ea-1d8a-4d73-9ab9-3f46ea3c0cee",
+      "width": 128,
+      "x": 6912,
+      "y": 544,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "e7dc1aca-fb38-4ec1-868c-cdb012dc9d52",
+      "width": 64,
+      "x": 832,
+      "y": 512,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Left",
+      "persistentUuid": "9a82dfdb-ad14-428f-8458-47f34d2d1cac",
+      "width": 0,
+      "x": 1074,
+      "y": 530,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Right",
+      "persistentUuid": "c7e835b2-c685-4241-9583-97306cb8565b",
+      "width": 0,
+      "x": 1152,
+      "y": 544,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "1917e6a5-205a-45bc-b8d2-e9915fd97c19",
+      "width": 64,
+      "x": 1248,
+      "y": 512,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "dd610ebd-3248-4737-837b-e9a54153372a",
+      "width": 64,
+      "x": 3808,
+      "y": 928,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "ff481588-0634-4fa5-98a9-ddb09ca4a097",
+      "width": 128,
+      "x": 4512,
+      "y": 544,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "d32c4a51-fe83-409c-ba38-b23f5fd1c691",
+      "width": 140,
+      "x": 5120,
+      "y": 258,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "5c03feae-d702-4423-84a3-714dba074555",
+      "width": 128,
+      "x": 4896,
+      "y": 320,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "d06b7c16-dabd-4a80-a48c-8049460a65d3",
+      "width": 128,
+      "x": 4704,
+      "y": 416,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "a7eeb436-bb96-4a7d-adf4-3c24bf3a8525",
+      "width": 352,
+      "x": 4736,
+      "y": 640,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "70db291e-c82d-401b-b544-f5c7c362a749",
+      "width": 131,
+      "x": 5341,
+      "y": 194,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "6aac7b21-d37e-4886-985f-53685c838e2c",
+      "width": 64,
+      "x": 2816,
+      "y": 1312,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "1c30c5dd-1883-4d06-b836-ba1de5e7fe72",
+      "width": 70,
+      "x": 5376,
+      "y": 128,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "f3fafa25-8fa0-4d73-929a-710c1bf49531",
+      "width": 70,
+      "x": 4928,
+      "y": 256,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "8007d80a-f90a-4a2c-96cd-eb74262cf620",
+      "width": 70,
+      "x": 5594,
+      "y": 34,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "d2e90f9e-f2b7-4503-8de2-c9f868d7cf05",
+      "width": 70,
+      "x": 4515,
+      "y": 432,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "bf9f7a1f-e963-44e0-8e4d-2bed671d3067",
+      "width": 64,
+      "x": 7872,
+      "y": 64,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "445a1fc8-af7c-4f55-a267-e8f8dfa6fb67",
+      "width": 64,
+      "x": 5120,
+      "y": 928,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "51772b1d-99a5-447d-821e-509190340474",
+      "width": 64,
+      "x": 3616,
+      "y": 1440,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "0de48db8-b839-4d2c-aad7-409b821f465d",
+      "width": 64,
+      "x": 3680,
+      "y": 1440,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "8380eafa-661f-4015-b3a8-e3499162f221",
+      "width": 320,
+      "x": 6496,
+      "y": 672,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "fc0b18ea-f823-46ec-9c96-f3f4a80fe5b3",
+      "width": 128,
+      "x": 7584,
+      "y": 256,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "0c4f8b07-45c9-423c-9798-1f334e1faa90",
+      "width": 320,
+      "x": 7168,
+      "y": 384,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "98bdd249-8592-4955-9f06-d4fd62607bdf",
+      "width": 320,
+      "x": 7136,
+      "y": 128,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "RedPlatform",
+      "persistentUuid": "65174183-ec9a-45a4-a3af-0ea13f526932",
+      "width": 128,
+      "x": 6880,
+      "y": 32,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "59bdc30a-dac2-480e-af28-581150b08e28",
+      "width": 128,
+      "x": 6912,
+      "y": 544,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "4674fb76-54ee-492c-b273-fd9764877751",
+      "width": 128,
+      "x": 7584,
+      "y": 256,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "7d18bdca-0846-4fed-888c-daeab775a0ed",
+      "width": 128,
+      "x": 6880,
+      "y": 32,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "884b41d5-08dc-4864-87a6-798c12519f7a",
+      "width": 128,
+      "x": 6240,
+      "y": 768,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "GreenFloor",
+      "persistentUuid": "df76b79d-7018-4b3f-b036-9ed39e73543c",
+      "width": 576,
+      "x": 7840,
+      "y": 128,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "f20f34f7-8464-4dd6-bf4d-26450b71a0ba",
+      "width": 64,
+      "x": 8256,
+      "y": 832,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "21f9aa51-2bd8-40c6-b1fc-7e2375748cac",
+      "width": 64,
+      "x": 7424,
+      "y": 704,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "8848a10f-be2e-4aaa-af4f-cc2d44b91eb4",
+      "width": 64,
+      "x": 6976,
+      "y": 832,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "5138e807-a877-4085-ae71-a8b8f7cc2abc",
+      "width": 64,
+      "x": 7776,
+      "y": 832,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "4e120b3a-e6f2-4a8f-ad7a-992d69fecf98",
+      "width": 64,
+      "x": 6912,
+      "y": -128,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "0b39b257-feb3-404a-a83f-58f8669c1682",
+      "width": 64,
+      "x": 6912,
+      "y": -32,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "9975fc52-9007-471a-b284-e46333125a95",
+      "width": 64,
+      "x": 6272,
+      "y": 704,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "b9aacca8-9c1d-4d68-a667-969a9767c124",
+      "width": 64,
+      "x": 7584,
+      "y": 192,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "3434f270-366d-4406-848c-b64139bff16e",
+      "width": 64,
+      "x": 6944,
+      "y": 480,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "layer": "",
+      "name": "Gem",
+      "persistentUuid": "5515d659-7544-4a59-95d7-4e916eb0d0b0",
+      "width": 64,
+      "x": 8000,
+      "y": 64,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "eb9baebd-f93e-41fd-b45e-97c95e55a65e",
+      "width": 70,
+      "x": 5568,
+      "y": 866,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Left",
+      "persistentUuid": "9f9dcce5-71f5-4ce4-826e-61200a05a3f3",
+      "width": 0,
+      "x": 6784,
+      "y": 640,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Right",
+      "persistentUuid": "0f25354a-784c-46f9-b1f3-75f14b8049f0",
+      "width": 0,
+      "x": 6514,
+      "y": 640,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "66fa0bab-1892-4e37-b22c-092f3323c9af",
+      "width": 70,
+      "x": 6592,
+      "y": 610,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Right",
+      "persistentUuid": "1226f277-c3de-4432-b46f-75b1dc0a6b86",
+      "width": 0,
+      "x": 6528,
+      "y": 896,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Left",
+      "persistentUuid": "9fe49299-a06b-47ec-8b2d-cf68468191c6",
+      "width": 0,
+      "x": 6912,
+      "y": 914,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "94f9bc22-f671-4f7a-a697-a08c63d979ea",
+      "width": 70,
+      "x": 6618,
+      "y": 866,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "16faec71-4b0a-4787-9ab3-28d49d9c1a1c",
+      "width": 0,
+      "x": 8384,
+      "y": 864,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "acdf5b7c-9fe4-48a7-bfbe-947e77771622",
+      "width": 0,
+      "x": 8384,
+      "y": 896,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "a4a5abec-3dbb-4813-b14f-6eb1d674617e",
+      "width": 0,
+      "x": 8384,
+      "y": 832,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "46ed6a66-4cd6-40f7-805e-ae68d5b53545",
+      "width": 32,
+      "x": 8384,
+      "y": 800,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "dbe1d6a5-1edf-46e9-a7fa-80ba7c149607",
+      "width": 32,
+      "x": 8384,
+      "y": 736,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "95c7d314-2236-44f3-822d-86c0f60b5a90",
+      "width": 32,
+      "x": 8384,
+      "y": 704,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "3f5612d9-84cd-4a9f-9575-9c68c3c1969d",
+      "width": 32,
+      "x": 8384,
+      "y": 768,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "1e90a127-c30a-4ffb-a7f6-ac0e390a5372",
+      "width": 32,
+      "x": 8384,
+      "y": 672,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "b3b89572-a556-4b9f-a940-e4788c745779",
+      "width": 32,
+      "x": 8384,
+      "y": 640,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "8bd93b9c-6eac-4dc8-b416-ba7b881b398d",
+      "width": 32,
+      "x": 8384,
+      "y": 608,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "0c16bee1-30cc-4ed6-8558-23f8241332eb",
+      "width": 32,
+      "x": 8384,
+      "y": 576,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "b0b8d4ee-c0d0-4cfd-b259-bdce90ad017c",
+      "width": 32,
+      "x": 8384,
+      "y": 544,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 32,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "2cfe60ad-4114-477f-a99b-dc18fd07f539",
+      "width": 32,
+      "x": 8384,
+      "y": 512,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "ae455172-dfac-4955-abcb-ccdae9f6eec7",
+      "width": 0,
+      "x": 8384,
+      "y": 96,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "fd6bc25f-da5e-4561-8666-73b81c270f33",
+      "width": 0,
+      "x": 8384,
+      "y": 64,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "b7393996-bf82-4bf1-9ee3-e5da3973136f",
+      "width": 0,
+      "x": 8384,
+      "y": 32,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "5e0ad1ff-b246-4db5-82a5-f437c98f63c0",
+      "width": 0,
+      "x": 8384,
+      "y": 0,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "d8d03f3c-2674-4eb9-97c8-51ea9242c2be",
+      "width": 0,
+      "x": 8384,
+      "y": -32,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "f88ec020-c927-4178-93aa-5b511655313a",
+      "width": 0,
+      "x": 8384,
+      "y": -64,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "07896b33-e722-443a-9ef4-2bc00131d07d",
+      "width": 0,
+      "x": 8384,
+      "y": -96,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "598a4a1d-4715-4468-9f06-ca8d7f6b73d2",
+      "width": 0,
+      "x": 8384,
+      "y": -128,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "b3bf65fc-1607-4602-b6c9-b91d4d49fbbc",
+      "width": 0,
+      "x": 8384,
+      "y": -160,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Poison",
+      "persistentUuid": "aa3d445c-64d5-4951-b000-448ea0e5bd00",
+      "width": 0,
+      "x": 8384,
+      "y": -192,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 352,
+      "layer": "",
+      "name": "LAdder",
+      "persistentUuid": "2952700f-db1f-443b-8102-169f1931ec47",
+      "width": 64,
+      "x": 4992,
+      "y": 640,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Left",
+      "persistentUuid": "b0ff5604-30c5-4e45-9e6d-d8f230b0bc0d",
+      "width": 0,
+      "x": 8160,
+      "y": 882,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Right",
+      "persistentUuid": "09354920-754d-4084-ad28-6f18bba5397d",
+      "width": 0,
+      "x": 7602,
+      "y": 896,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "bcaf0d4d-2d83-4e93-9667-422538c467e9",
+      "width": 70,
+      "x": 7680,
+      "y": 866,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Left",
+      "persistentUuid": "c01d20e9-884b-4069-bd05-6feecf497f8c",
+      "width": 0,
+      "x": 7506,
+      "y": 896,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Right",
+      "persistentUuid": "09f73ca3-bc52-4289-ba80-a26ab085f045",
+      "width": 0,
+      "x": 7008,
+      "y": 896,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 62,
+      "layer": "",
+      "name": "Skeleton",
+      "persistentUuid": "0053e796-c0d2-42f2-a546-0f2010170e21",
+      "width": 70,
+      "x": 7226,
+      "y": 864,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 335,
+      "customSize": true,
+      "depth": 0,
+      "height": 121,
+      "layer": "",
+      "name": "Arrow",
+      "persistentUuid": "01d3020a-dab8-4cdf-830a-d7138d818691",
+      "width": 137,
+      "x": 6115,
+      "y": 505,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4969,9 +7113,69 @@
       "behaviors": [
         {
           "name": "Platform",
+          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
-          "platformType": "Jumpthru",
           "canBeGrabbed": true,
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "ad147821e46ed56057fca0bfa116d1a62a10126e584927ce2d0f3c3807153211",
+      "height": 128,
+      "name": "GreenFloor",
+      "tags": "",
+      "texture": "tiled_Green Floor.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "Jumpthru",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "LAdder",
+      "tags": "",
+      "texture": "3df6ed53ffcc6c8366cfaf47de5b8b902690ecc38c43c952ddc864654f6a5224_Icon Background_Green.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "Ladder",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite2",
+      "tags": "",
+      "texture": "3afccd7985243337bfd5ca8dd6f26f0279f566a111f4e71b8f71d42546daadaa_tiled_Blue Floor.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "canBeGrabbed": true,
+          "name": "Platform",
+          "platformType": "Jumpthru",
+          "type": "PlatformBehavior::PlatformBehavior",
           "yGrabOffset": 0
         }
       ]
@@ -10662,10 +12866,10 @@
       "effects": [],
       "behaviors": [
         {
+          "canGoDownFromJumpthru": false,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
-          "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
           "deceleration": 1500,
@@ -10709,19 +12913,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -10745,19 +12957,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -10793,19 +13013,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -10829,19 +13057,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -10865,19 +13101,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -10901,19 +13145,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -10937,19 +13189,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -10973,19 +13233,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11009,19 +13277,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11057,19 +13333,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11105,19 +13389,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11141,19 +13433,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11177,19 +13477,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11213,19 +13521,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11249,19 +13565,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11297,19 +13621,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11333,19 +13665,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11369,19 +13709,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11405,19 +13753,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11441,19 +13797,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11477,19 +13841,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11513,19 +13885,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11561,19 +13941,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11609,19 +13997,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11657,19 +14053,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11693,19 +14097,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11741,19 +14153,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11777,19 +14197,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11813,19 +14241,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11849,19 +14285,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11885,19 +14329,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11921,19 +14373,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -11969,19 +14429,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12005,19 +14473,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12041,19 +14517,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12089,19 +14573,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12125,19 +14617,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12161,19 +14661,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12197,19 +14705,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12233,19 +14749,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12269,19 +14793,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12305,19 +14837,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12341,19 +14881,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12377,19 +14925,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12425,19 +14981,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12461,19 +15025,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12497,19 +15069,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12545,19 +15125,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12593,19 +15181,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12629,19 +15225,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12665,19 +15269,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12701,19 +15313,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
+                        "x": 0.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 11,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 20,
                         "y": 5
                       },
                       {
-                        "x": 28,
+                        "x": 29.5,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21.5,
                         "y": 32
                       },
                       {
-                        "x": 1,
+                        "x": 7.5,
                         "y": 32
                       }
                     ]
@@ -12724,6 +15344,18 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "tags": "",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -12784,11 +15416,12 @@
         },
         {
           "type": {
-            "value": "PlaySound"
+            "value": "PlaySoundCanal"
           },
           "parameters": [
             "",
             "SpaceKnightsSong.mp3",
+            "2",
             "yes",
             "10",
             "1"
@@ -13062,6 +15695,15 @@
                 "75",
                 "0.8"
               ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
             }
           ]
         }
@@ -13131,6 +15773,15 @@
                 "CurrentLevel",
                 "\"Base Stage3\"",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "2"
               ]
             }
           ]
@@ -13264,8 +15915,8 @@
               },
               "parameters": [
                 "Knight",
-                "Monster",
-                "700",
+                "Monster2",
+                "300",
                 ""
               ]
             },
@@ -13274,7 +15925,7 @@
                 "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
-                "Monster",
+                "Monster2",
                 "Activated",
                 ""
               ]
@@ -13286,7 +15937,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Monster",
+                "Monster2",
                 "Activated",
                 "True"
               ]
@@ -13301,7 +15952,7 @@
                 "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
-                "Monster",
+                "Monster2",
                 "Activated",
                 "True"
               ]
@@ -13313,7 +15964,7 @@
                 "value": "PlatformBehavior::SimulateLeftKey"
               },
               "parameters": [
-                "Monster",
+                "Monster2",
                 "PlatformerObject"
               ]
             }
@@ -13327,7 +15978,7 @@
                 "value": "PosY"
               },
               "parameters": [
-                "Monster",
+                "Monster2",
                 ">",
                 "FallMarker.Y()"
               ]
@@ -13645,6 +16296,29 @@
                 "-",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "PlatformerCharacterAnimator::PlatformerCharacterAnimator::SetJumpAnimationName"
+              },
+              "parameters": [
+                "Knight",
+                "PlatformerCharacterAnimator",
+                "\"knockback\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "1f1ebe8108992cd14f6e6efd76a9b665945c890b833501122abe84f5c6519b24_Hit 5.aac",
+                "",
+                "50",
+                "1"
+              ]
             }
           ]
         },
@@ -13717,7 +16391,7 @@
               },
               "parameters": [
                 "Knight",
-                "Orc",
+                "Skeleton",
                 "",
                 "",
                 ""
@@ -13768,6 +16442,18 @@
                 "\"knockback\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "1f1ebe8108992cd14f6e6efd76a9b665945c890b833501122abe84f5c6519b24_Hit 5.aac",
+                "",
+                "50",
+                "1"
+              ]
             }
           ]
         },
@@ -13780,7 +16466,7 @@
               },
               "parameters": [
                 "Knight",
-                "Orc",
+                "Skeleton",
                 "",
                 "",
                 ""
@@ -13802,7 +16488,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Orc",
+                "Skeleton",
                 ""
               ]
             },
@@ -13842,6 +16528,18 @@
                 "Score",
                 "=",
                 "\"Score: \" + ToString(Variable(Score))"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Ding",
+                "",
+                "50",
+                "Variable(PitchScaling)-0.1"
               ]
             }
           ]
@@ -13978,7 +16676,7 @@
               },
               "parameters": [
                 "Knight",
-                "Skeleton",
+                "Monster2",
                 "",
                 "",
                 ""
@@ -14041,7 +16739,7 @@
               },
               "parameters": [
                 "Knight",
-                "Skeleton",
+                "Monster2",
                 "",
                 "",
                 ""
@@ -14063,7 +16761,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Orc",
+                "Monster2",
                 ""
               ]
             },

@@ -1,13 +1,13 @@
 {
-  "b": 219,
+  "b": 0,
   "disableInputWhenNotFocused": true,
   "mangledName": "Base_32Stage2",
   "name": "Base Stage2",
-  "r": 46,
+  "r": 0,
   "standardSortMethod": true,
   "stopSoundsOnStartup": false,
   "title": "",
-  "v": 80,
+  "v": 0,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.1956110053677044,
+    "zoomFactor": 0.1189453370800198,
     "windowMask": false
   },
   "objectsGroups": [
@@ -192,15 +192,16 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "angle": 91,
+      "customSize": true,
+      "depth": 0,
+      "height": 124,
       "layer": "",
       "name": "Arrow",
       "persistentUuid": "ee48d249-2f7d-4634-ade6-69acaeb2aaeb",
-      "width": 0,
-      "x": 418,
-      "y": 322,
+      "width": 124,
+      "x": 419,
+      "y": 229,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -497,21 +498,6 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "UI",
-      "name": "BlueFlatBar",
-      "persistentUuid": "3217e411-31bd-4dfb-a618-640ce6838b06",
-      "width": 0,
-      "x": 32,
-      "y": 64,
-      "zOrder": 23,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
       "layer": "",
       "name": "Left",
       "persistentUuid": "8baf035f-61cc-4981-87e5-06c2dbf4393a",
@@ -783,46 +769,48 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "angle": 91,
+      "customSize": true,
+      "depth": 0,
+      "height": 126,
       "layer": "",
       "name": "Arrow",
       "persistentUuid": "3c126db5-bb7f-458c-bee2-c659f7dacaf8",
-      "width": 0,
-      "x": 2272,
-      "y": 704,
+      "width": 126,
+      "x": 2273,
+      "y": 609,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 202,
-      "customSize": false,
-      "height": 0,
+      "angle": 294,
+      "customSize": true,
+      "depth": 0,
+      "height": 125,
       "layer": "",
       "name": "Arrow",
       "persistentUuid": "c3750f49-7bb9-495d-94bb-deadb4b293b9",
-      "width": 0,
-      "x": 3520,
-      "y": 1218,
+      "width": 125,
+      "x": 3534,
+      "y": 1171,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 90,
       "customSize": true,
       "depth": 0,
-      "height": 121,
+      "height": 152,
       "layer": "",
       "name": "Arrow",
       "persistentUuid": "2a3bc9dd-8cd9-4cd0-90ce-e70996e3a828",
-      "width": 137,
+      "width": 168,
       "x": 4128,
-      "y": 487,
+      "y": 456,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -2847,16 +2835,16 @@
       "initialVariables": []
     },
     {
-      "angle": 335,
+      "angle": 89,
       "customSize": true,
       "depth": 0,
-      "height": 121,
+      "height": 147,
       "layer": "",
       "name": "Arrow",
       "persistentUuid": "01d3020a-dab8-4cdf-830a-d7138d818691",
-      "width": 137,
-      "x": 6115,
-      "y": 505,
+      "width": 167,
+      "x": 6114,
+      "y": 477,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -2937,38 +2925,6 @@
       "width": 106,
       "x": 1594,
       "y": 1304,
-      "zOrder": 41,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 102,
-      "layer": "",
-      "name": "Skeleton",
-      "persistentUuid": "0014fbfb-d62a-44d3-8910-a85b6013adc8",
-      "width": 106,
-      "x": 1604,
-      "y": 1314,
-      "zOrder": 41,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 102,
-      "layer": "",
-      "name": "Skeleton",
-      "persistentUuid": "c269aa6d-154b-49b2-9139-abc81cc85318",
-      "width": 106,
-      "x": 1614,
-      "y": 1324,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -3167,6 +3123,7 @@
   ],
   "objects": [
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Knight",
       "tags": "",
@@ -7050,6 +7007,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Star",
       "tags": "",
@@ -7169,7 +7127,7 @@
       "height": 128,
       "name": "Stars",
       "tags": "",
-      "texture": "tiled_Stars.png",
+      "texture": "stars2.jpg",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
       "variables": [],
@@ -7201,7 +7159,7 @@
       "height": 128,
       "name": "GreenFloor",
       "tags": "",
-      "texture": "tiled_Green Floor.png",
+      "texture": "bfdd142c22759693e30cef1102db9e6424d978592d2b1f11c50f45f658f2b0ff_tiled_Green Floor.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
       "variables": [],
@@ -7301,6 +7259,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Poison",
       "tags": "",
@@ -7416,6 +7375,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Monster",
       "tags": "",
@@ -8152,6 +8112,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Gem",
       "tags": "",
@@ -8284,6 +8245,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Arrow",
       "tags": "",
@@ -8303,7 +8265,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Orange Arrow.png",
+                  "image": "c5b584d0726b4fb38ba8f52661e014da4a792333664375689984d45785761360_Buff Arrow 1_No Shadow.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -8335,6 +8297,7 @@
       "content": {},
       "childrenContent": {
         "Border": {
+          "adaptCollisionMaskAutomatically": false,
           "updateIfNotVisible": false,
           "animations": [
             {
@@ -8369,6 +8332,7 @@
           ]
         },
         "Thumb": {
+          "adaptCollisionMaskAutomatically": false,
           "updateIfNotVisible": false,
           "animations": [
             {
@@ -8405,6 +8369,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "a9518cbba640f8287edf6c5eb05df6e2f825343bc6440e8d4afe9623831a3afc",
       "name": "AButton",
       "tags": "",
@@ -8620,6 +8585,7 @@
       }
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "acc53050d6450ffd55486435b5b49dc43d549a6d25081972fb764a61d5d91d1a",
       "name": "Fire",
       "tags": "",
@@ -11328,6 +11294,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "0764a08413768f367be0163d300f94095de7e34ce435da06dc572d45bd851442",
       "name": "Monster2",
       "tags": "",
@@ -11388,6 +11355,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "7f0946f2119a37fcc8635bb3812e55c8e54a7817a25b77d0dff94b04c3ca8e73",
       "name": "Orc",
       "tags": "",
@@ -12568,6 +12536,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "13a9cef806e970f1b9426f37cf41e27eb70fffedac02cd4736c023201afb7011",
       "name": "Left",
       "tags": "",
@@ -12635,6 +12604,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "f54fecd6e221a9968e175ebdb5171185c3e13bdc56282776270df4f791575ab8",
       "name": "Right",
       "tags": "",
@@ -12702,6 +12672,7 @@
       ]
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "d85d85bdbf3fdb810095bbf0754b1d1843be378bab01c7509ccf0c361d09bf2f",
       "name": "LargeBlockNarrowRectangle",
       "tags": "",
@@ -12912,6 +12883,7 @@
       "behaviors": []
     },
     {
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "adab978168a4868cc90b2aa8ab3dc22ccf38a010e5430258c8e1d30f870eb96d",
       "name": "Skeleton",
       "tags": "",
@@ -15418,6 +15390,18 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite3",
+      "tags": "",
+      "texture": "",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -15536,7 +15520,7 @@
           "parameters": [
             "Stars",
             "=",
-            "CameraWidth()+50"
+            "CameraWidth()+100"
           ]
         },
         {
@@ -15742,7 +15726,7 @@
               },
               "parameters": [
                 "",
-                "\"Base Stage\"",
+                "\"Base Stage2\"",
                 ""
               ]
             },
@@ -15833,7 +15817,7 @@
               },
               "parameters": [
                 "CurrentLevel",
-                "\"Base Stage3\"",
+                "\"Final Scene\"",
                 "1"
               ]
             },
@@ -15977,8 +15961,8 @@
               },
               "parameters": [
                 "Knight",
-                "Monster2",
-                "300",
+                "Skeleton",
+                "700",
                 ""
               ]
             },
@@ -15987,7 +15971,7 @@
                 "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
-                "Monster2",
+                "Skeleton",
                 "Activated",
                 ""
               ]
@@ -15999,7 +15983,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "Monster2",
+                "Skeleton",
                 "Activated",
                 "True"
               ]
@@ -16014,20 +15998,26 @@
                 "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
-                "Monster2",
+                "Skeleton",
                 "Activated",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PlatformBehavior::SimulateLeftKey"
+                "value": "SetAnimationName"
               },
               "parameters": [
-                "Monster2",
-                "PlatformerObject"
+                "Skeleton",
+                "\"Limping Movement\""
               ]
             }
           ]
@@ -16037,23 +16027,47 @@
           "conditions": [
             {
               "type": {
-                "value": "PosY"
+                "value": "AnimationEnded2"
               },
               "parameters": [
-                "Monster2",
-                ">",
-                "FallMarker.Y()"
+                "Skeleton"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "Delete"
+                "value": "SetAnimationName"
               },
               "parameters": [
-                "Monster",
+                "Skeleton",
+                "\"Bone Toss\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Skeleton",
+                "Activated",
                 ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Skeleton",
+                "\"Standing Idle\""
               ]
             }
           ]
@@ -16579,7 +16593,7 @@
               "parameters": [
                 "Score",
                 "+",
-                "5"
+                "2"
               ]
             },
             {

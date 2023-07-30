@@ -3442,6 +3442,352 @@
         "name": "tiled_Stars.png2",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Icon Background_RAINBOW.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Icon Background_RAINBOW.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Debuff Arrow 1_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7b114c2b4c62afc0a0986f733a9dca76a27e60e7912fe7842b611c5a401f215d_Debuff Arrow 1_No Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Buffs & Debuffs/7b114c2b4c62afc0a0986f733a9dca76a27e60e7912fe7842b611c5a401f215d_Debuff Arrow 1_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Buff Arrow 1_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c5b584d0726b4fb38ba8f52661e014da4a792333664375689984d45785761360_Buff Arrow 1_No Shadow.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Buffs & Debuffs/c5b584d0726b4fb38ba8f52661e014da4a792333664375689984d45785761360_Buff Arrow 1_No Shadow.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stars2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "stars2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "360_F_308222080_lonvCIi3us7SxAtYr28MeW5nkAg4pIYQ.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "360_F_308222080_lonvCIi3us7SxAtYr28MeW5nkAg4pIYQ.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stars16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stars16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stars.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "stars.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Monster",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Monster2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Monster3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Monster4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Monster5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Monster5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/61c8e1d677cb56b601b39e99f92cc7b70cef949415c9fe270381f47304f36d28_Gloppy Slime_Hurt.png",
+          "name": "Gloppy Slime_Hurt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/12525d528422d7071f840987a8e900c6728d7820b0bb3fa96f27d458bff9116c_Gloppy Slime_Idle_1.png",
+          "name": "Gloppy Slime_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/c9f9327108e2f90fc1ad7660b0430f6a39944add2bc1e8718fbea13150bbe7dc_Gloppy Slime_Idle_2.png",
+          "name": "Gloppy Slime_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Pop out_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Pop out_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/9a4b7eae3517e22288ee4ff2febea13ac5bd07de6db7c5d9b158187e0772e9d0_Gloppy Slime_Pop out_1.png",
+          "name": "Gloppy Slime_Pop out_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Pop out_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Pop out_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/eb87f438646b3e30a2068a66d86e9a973dee40da1fb813b3ad8cd6859b55223c_Gloppy Slime_Pop out_2.png",
+          "name": "Gloppy Slime_Pop out_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Pop out_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Pop out_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/9db44b6f9f015fc9f5d7419245a48fe760605bb84ed8d9a09a51ae6a622cb584_Gloppy Slime_Pop out_3.png",
+          "name": "Gloppy Slime_Pop out_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Sinking_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Sinking_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/9db44b6f9f015fc9f5d7419245a48fe760605bb84ed8d9a09a51ae6a622cb584_Gloppy Slime_Sinking_1.png",
+          "name": "Gloppy Slime_Sinking_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Sinking_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Sinking_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/eb87f438646b3e30a2068a66d86e9a973dee40da1fb813b3ad8cd6859b55223c_Gloppy Slime_Sinking_2.png",
+          "name": "Gloppy Slime_Sinking_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gloppy Slime_Sinking_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gloppy Slime_Sinking_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Gloppy Slime/9a4b7eae3517e22288ee4ff2febea13ac5bd07de6db7c5d9b158187e0772e9d0_Gloppy Slime_Sinking_3.png",
+          "name": "Gloppy Slime_Sinking_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Devo the Devil_Falling.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Devo the Devil_Falling.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Devo the Devil/bc3e6152b3ff812ac7ece8eec054c098d7365df65dd560ffea9b255c810dae19_Devo the Devil_Falling.png",
+          "name": "Devo the Devil_Falling.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Devo the Devil_Hurt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Devo the Devil_Hurt.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Devo the Devil/6d206f304f8984cdf490950da89010ff298cf5d5a9368cdc70cea8f808789738_Devo the Devil_Hurt.png",
+          "name": "Devo the Devil_Hurt.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Devo the Devil_Jumping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Devo the Devil_Jumping.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Devo the Devil/d9c53a120c4a45883d1d0a88ef8501f462865d9fa15995bf11924c34583aedcf_Devo the Devil_Jumping.png",
+          "name": "Devo the Devil_Jumping.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Devo the Devil_Running_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Devo the Devil_Running_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Devo the Devil/cb8911230e320285c3046a4a1584e4afddfdebe286204fa58b2b5ff95ec1cff8_Devo the Devil_Running_1.png",
+          "name": "Devo the Devil_Running_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Devo the Devil_Running_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Devo the Devil_Running_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Devo the Devil/7fbe6739ec1561d22310795fc0d018846f905fddf2402cf829d606cf4dff54d4_Devo the Devil_Running_2.png",
+          "name": "Devo the Devil_Running_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Devo the Devil_Running_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Devo the Devil_Running_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Devo the Devil/cb8911230e320285c3046a4a1584e4afddfdebe286204fa58b2b5ff95ec1cff8_Devo the Devil_Running_3.png",
+          "name": "Devo the Devil_Running_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Devo the Devil_Running_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Devo the Devil_Running_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Devo the Devil/a8b64f888c8f3eb5195931e56ecbcbe65bc37870685aed2f548a2c2ebf8f7cb5_Devo the Devil_Running_4.png",
+          "name": "Devo the Devil_Running_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Devo the Devil_Standing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Devo the Devil_Standing.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Character Pack 1/Devo the Devil/67eeb189fb606becee5df1beaad177f51c05a6eb705842060028993d6f1bfd0c_Devo the Devil_Standing.png",
+          "name": "Devo the Devil_Standing.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stars 3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "stars 3.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3460,19 +3806,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/base-stage3"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/final-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene2"
+      "referenceTo": "/layouts/end"
     }
   ],
   "externalEvents": [],

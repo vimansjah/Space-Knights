@@ -82,7 +82,7 @@
         "alwaysLoaded": false,
         "file": "assets/Orange Arrow.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Orange Arrow.png\",\"extension\":\".png\"}",
         "name": "Orange Arrow.png",
         "smoothed": true,
         "userAdded": false,
@@ -1384,7 +1384,7 @@
         "alwaysLoaded": false,
         "file": "assets/Flat Bar Blue Fill Bar.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Flat Bar Blue Fill Bar.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Flat Bar Blue Fill Bar.png",
         "smoothed": false,
         "userAdded": false,
@@ -3348,7 +3348,7 @@
         "alwaysLoaded": false,
         "file": "assets/tiled_Green Floor.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/tiled_Green Floor.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "tiled_Green Floor.png",
         "smoothed": true,
         "userAdded": false,
@@ -3387,7 +3387,7 @@
         "alwaysLoaded": false,
         "file": "assets/Icon Background_Green.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Icon Background_Green.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "3df6ed53ffcc6c8366cfaf47de5b8b902690ecc38c43c952ddc864654f6a5224_Icon Background_Green.png",
         "smoothed": true,
         "userAdded": true,
@@ -3422,6 +3422,26 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Epic Dramatic/c4e865bc940d34f2f3ff523f9b6af63c674f632b21fb1fcdd3259d27c51dfdbd_The Enemy.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Dragon Evolved.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Dragon Evolved.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Colorful Monsters/Flying/bce94ce6169957acf211bd02b94e11134cc4d21e5a788daecddb9a8cb647c66e_Dragon Evolved.glb",
+          "name": "Dragon Evolved.glb"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Stars.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Stars.png2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3441,6 +3461,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/base-stage3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/final-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene2"
     }
   ],
   "externalEvents": [],

@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Intro",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -3788,6 +3788,26 @@
         "name": "stars 3.jpg",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SpaceKnightIntro_Credits.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SpaceKnightIntro_Credits.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Ranchers-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "566a014b24b13d8f73118f13a7105778225c22c95127a8f1d5c3e996ff0768de_Ranchers-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/566a014b24b13d8f73118f13a7105778225c22c95127a8f1d5c3e996ff0768de_Ranchers-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -3811,6 +3831,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/end"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/intro"
     }
   ],
   "externalEvents": [],

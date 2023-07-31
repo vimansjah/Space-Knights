@@ -1122,19 +1122,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "blob:file:///23f27e6d-dbeb-490a-931a-ebdb184a3058",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/tiled_Stars.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "tiled_Stars.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Background/4d8cfdae4934a160d7a712ac0242ffb00a330637bf9373f0870af014671423ea_tiled_Stars.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Red Platform.png",
         "kind": "image",
         "metadata": "",
@@ -2513,16 +2500,6 @@
         }
       },
       {
-        "file": "Space Knights music.wav",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Space Knights music.wav",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
         "file": "Spaceknightssong1.mp3",
         "kind": "audio",
         "metadata": "",
@@ -3321,15 +3298,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Industrial Platformer Pack (110 assets)/PNG/Retina/2820f54b90f3e1ffc044e2347c9ce98f4e35f7ca9bf70c73604314b2ff8ffc27_tiled_Blue background.png",
           "name": "tiled_Blue background.png"
         }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "blob:file:///14163f4a-40ba-40ed-be8b-3b81669404fe",
-        "kind": "image",
-        "metadata": "{\"localFilePath\":\"assets/tiled_Stars.png\",\"extension\":\".png\",\"pskl\":{}}",
-        "name": "assets\\tiled_Stars.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
